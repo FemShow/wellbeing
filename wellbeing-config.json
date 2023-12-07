@@ -1,0 +1,131 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "UK Measures of National Well-being: November 2023",
+    "summary": "People who felt fairly or very safe walking alone in their local area after dark by sex",
+    "description": "",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "public_contact_point_uri": "mailto:Media.Relations@ons.gov.uk",
+    "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "dataset_issued": "2023-11-10T00:00:00Z",
+    "dataset_modified": "2023-11-10T00:00:00Z",
+    "keywords": [
+        "safety",
+        "darkness",
+        "walking",
+        "male",
+        "female",
+        "local"
+    ],
+    "columns": {
+        "Safe-walking": {
+            "type": "dimension",
+            "label": "Countries"
+        },
+        "Male": {
+            "type": "observations",
+            "measure": {
+                "label": "Male %",
+                "description": "Percentage of women",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+            },
+            "data_type": "float",
+            "unit": {
+                "label": "Number",
+                "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+            },
+            "Male_obsStatus": {
+                "from_template": "observation-status",
+                "describes_observations": "Male"
+            },
+            "Male_LCL": {
+                "type": "attribute",
+                "data_type": "decimal",
+                "description": "lower confidence interval"
+            },
+            "M_LCL_obsStatus": {
+                "from_template": "observation-status",
+                "describes_observations": "Male_LCL"
+            },
+            "Male_UCL": {
+                "type": "attribute",
+                "data_type": "decimal",
+                "description": "upper confidence interval"
+            },
+            "M_UCL_obsStatus": {
+                "from_template": "observation-status",
+                "describes_observations": "Male_UCL"
+            },
+            "M_sample_size": {
+                "type": "observations",
+                "measure": {
+                    "label": "Value",
+                    "description": "Number of men participating in the survey",
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#count"
+                },
+                "data_type": "integer",
+                "unit": {
+                    "label": "Number",
+                    "from_existing": "http://qudt.org/vocab/unit/NUM"
+                }
+            },
+            "M_s_s_obsStatus": {
+                "from_template": "observation-status",
+                "describes_observations": "M_sample_size"
+            }
+        },
+        "Female": {
+            "type": "observations",
+            "measure": {
+                "label": "Female %",
+                "description": "Percentage of women",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+            },
+            "data_type": "float",
+            "unit": {
+                "label": "Number",
+                "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+            },
+            "F_obsStatus": {
+                "from_template": "observation-status",
+                "describes_observations": "Female"
+            },
+            "F_LCL": {
+                "type": "attribute",
+                "data_type": "decimal",
+                "description": "lower confidence interval"
+            },
+            "F_LCL_obsStatus": {
+                "from_template": "observation-status",
+                "describes_observations": "F_LCL"
+            },
+            "F_UCL": {
+                "type": "attribute",
+                "data_type": "decimal",
+                "description": "upper confidence interval"
+            },
+            "F_UCL_obsStatus": {
+                "from_template": "observation-status",
+                "describes_observations": "Female %"
+            },
+            "F_sample_size": {
+                "type": "observations",
+                "measure": {
+                    "label": "Value",
+                    "description": "Number of women participating in the survey",
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#count"
+                },
+                "data_type": "integer",
+                "unit": {
+                    "label": "Number",
+                    "from_existing": "http://qudt.org/vocab/unit/NUM"
+                }
+            },
+            "F_s_s_obsStatus": {
+                "from_template": "observation-status",
+                "describes_observations": "F_sample_size"
+            }
+        }
+    }
+}
