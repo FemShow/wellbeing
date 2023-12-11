@@ -4,13 +4,17 @@ import pandas as pd
 df = pd.read_excel("/Users/femisokoya/Documents/GitHub/wellbeing/ukmeasuresofnationalwellbeingnov2023.xlsx",
                    sheet_name='5.6_Feeling_safe',
                    skiprows=18,
-                   nrows=11)
+                   nrows=34)
 
 # Rename the column header for column 0 to 'Safe-walking'
 df.rename(columns={df.columns[0]: 'Safe-walking'}, inplace=True)
 
 # Remove the suffix '[L]' from values in the 'Safe-walking' column
 df['Safe-walking'] = df['Safe-walking'].str.replace(r'\[L\]', '', regex=True)
+
+df.drop(df.index[11:14], inplace=True)
+df.reset_index(drop=True, inplace=True)
+
 
 # Iterate through all columns in the DataFrame
 for col in df.columns:
@@ -56,7 +60,6 @@ df['Female sample size'] = df['Female sample size'].fillna(0).astype(int)
 # Replace zeroes with empty strings
 df = df.replace(0, '')
 
-
 # Example dictionary for column name mapping
 column_name_mapping = {
     'Male %': 'Male',
@@ -85,6 +88,17 @@ df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
 
 # Replace missing values in the DataFrame with a default value (e.g., "")
 df.fillna("", inplace=True)
+
+# Remove columns with all NaN values from df
+df.dropna(axis=1, how='all', inplace=True)
+
+# Now, columns with all NaN values have been removed from df
+
+# Assuming df is your DataFrame
+df.dropna(axis=0, how='all', inplace=True)
+
+# Managing missing values
+df.fillna(value='', inplace=True)
 
 # Display the resulting DataFrame
 print(df)
