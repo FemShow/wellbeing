@@ -1,55 +1,59 @@
 RefPeriod,refArea,Age,Sex,Value,UCL,LCL,sampleSize,observationStatus
-Apr 2022 to Mar 2023,England,,Male,85.1,86.4,83.7,3800.0,x
-Apr 2022 to Mar 2023,England,,Female,58.0,59.7,56.2,4500.0,x
-Apr 2022 to Mar 2023,England,,Male,85.8,87.1,84.4,3540.0,x
-Apr 2022 to Mar 2023,England,,Female,61.8,63.5,60.0,4290.0,x
-Apr 2022 to Mar 2023,England,,Male,87.9,89.1,86.7,3870.0,x
-Apr 2022 to Mar 2023,England,,Female,61.7,63.4,60.0,4520.0,x
-Apr 2022 to Mar 2023,England,,Male,,,,,x
-Apr 2022 to Mar 2023,England,,Female,,,,,x
-Apr 2022 to Mar 2023,England,,Male,87.2,88.4,85.9,3840.0,x
-Apr 2022 to Mar 2023,England,,Female,63.7,65.5,62.0,4390.0,x
-Apr 2022 to Mar 2023,England,,Male,88.4,89.5,87.2,3720.0,x
-Apr 2022 to Mar 2023,England,,Female,68.8,70.5,67.2,4400.0,x
-Apr 2022 to Mar 2023,England,,Male,86.8,88.1,85.6,3650.0,x
-Apr 2022 to Mar 2023,England,,Female,69.0,70.6,67.4,4250.0,x
-Apr 2022 to Mar 2023,England,,Male,,,,,x
-Apr 2022 to Mar 2023,England,,Female,,,,,x
-Apr 2022 to Mar 2023,England,,Male,,,,,x
-Apr 2022 to Mar 2023,England,,Female,,,,,x
-Apr 2022 to Mar 2023,England,,Male,89.7,90.9,88.4,3460.0,x
-Apr 2022 to Mar 2023,England,,Female,69.0,70.7,67.2,3900.0,x
-Apr 2022 to Mar 2023,England,,Male,89.6,90.8,88.3,3200.0,x
-Apr 2022 to Mar 2023,England,,Female,69.0,70.8,67.2,3600.0,x
-Apr 2022 to Mar 2023,North East,,Male,89.4,93.2,83.9,180,x
-Apr 2022 to Mar 2023,North East,,Female,59.8,68.2,50.7,210,x
-Apr 2022 to Mar 2023,North West,,Male,90.4,92.9,87.1,420,x
-Apr 2022 to Mar 2023,North West,,Female,66.1,71.1,60.8,470,x
-Apr 2022 to Mar 2023,Yorkshire and The Humber,,Male,87.2,91.6,81.0,260,x
-Apr 2022 to Mar 2023,Yorkshire and The Humber,,Female,67.9,74.0,61.2,320,x
-Apr 2022 to Mar 2023,East Midlands,,Male,89.3,92.6,84.8,360,x
-Apr 2022 to Mar 2023,East Midlands,,Female,70.2,75.7,64.1,370,x
-Apr 2022 to Mar 2023,West Midlands,,Male,87.4,90.5,83.5,420,x
-Apr 2022 to Mar 2023,West Midlands,,Female,62.3,67.2,57.1,450,x
-Apr 2022 to Mar 2023,East of England,,Male,89.4,92.7,85.0,370,x
-Apr 2022 to Mar 2023,East of England,,Female,69.8,74.6,64.5,440,x
-Apr 2022 to Mar 2023,London,,Male,90.4,93.6,85.8,360,x
-Apr 2022 to Mar 2023,London,,Female,75.1,79.8,69.7,400,x
-Apr 2022 to Mar 2023,South East,,Male,90.7,93.3,87.1,490,x
-Apr 2022 to Mar 2023,South East,,Female,67.9,72.2,63.3,550,x
-Apr 2022 to Mar 2023,South West,,Male,91.1,94.2,86.5,340,x
-Apr 2022 to Mar 2023,South West,,Female,75.3,80.0,70.0,390,x
-Apr 2022 to Mar 2023,Wales,,Male,91.1,94.7,85.4,260,x
-Apr 2022 to Mar 2023,Wales,,Female,68.1,74.5,60.9,300,x
-Apr 2022 to Mar 2023,England,25 to 34,Male,92.4,94.7,89.2,500,x
-Apr 2022 to Mar 2023,England,25 to 34,Female,68.1,72.6,63.3,560,x
-Apr 2022 to Mar 2023,England,35 to 44,Male,90.5,92.9,87.4,540,x
-Apr 2022 to Mar 2023,England,35 to 44,Female,71.6,75.4,67.5,640,x
-Apr 2022 to Mar 2023,England,45 to 54,Male,91.7,94.0,88.6,520,x
-Apr 2022 to Mar 2023,England,45 to 54,Female,74.1,78.0,69.8,580,x
-Apr 2022 to Mar 2023,England,55 to 64,Male,91.3,93.4,88.6,620,x
-Apr 2022 to Mar 2023,England,55 to 64,Female,69.2,73.1,65.1,680,x
-Apr 2022 to Mar 2023,England,65 to 74,Male,88.4,91.0,85.3,610,x
-Apr 2022 to Mar 2023,England,65 to 74,Female,67.9,72.0,63.7,660,x
-Apr 2022 to Mar 2023,England,75 and over,Male,84.6,87.8,80.7,510,x
-Apr 2022 to Mar 2023,England,75 and over,Female,60.6,64.7,56.3,620,x
+Apr 2012 to Mar 2013,England and Wales,16 years and over,Male,84.7,86.1,83.3,3690,
+Apr 2012 to Mar 2013,England and Wales,16 years and over,Female,56.7,58.5,54.9,4330,
+Apr 2013 to Mar 2014,England and Wales,16 years and over,Male,85.1,86.4,83.7,3800,
+Apr 2013 to Mar 2014,England and Wales,16 years and over,Female,58.0,59.7,56.2,4500,
+Apr 2014 to Mar 2015,England and Wales,16 years and over,Male,85.8,87.1,84.4,3540,
+Apr 2014 to Mar 2015,England and Wales,16 years and over,Female,61.8,63.5,60.0,4290,
+Apr 2015 to Mar 2016,England and Wales,16 years and over,Male,87.9,89.1,86.7,3870,
+Apr 2015 to Mar 2016,England and Wales,16 years and over,Female,61.7,63.4,60.0,4520,
+Apr 2016 to Mar 2017,England and Wales,16 years and over,Male,,,,0,
+Apr 2016 to Mar 2017,England and Wales,16 years and over,Female,,,,0,
+Apr 2017 to Mar 2018,England and Wales,16 years and over,Male,87.2,88.4,85.9,3840,
+Apr 2017 to Mar 2018,England and Wales,16 years and over,Female,63.7,65.5,62.0,4390,
+Apr 2018 to Mar 2019,England and Wales,16 years and over,Male,88.4,89.5,87.2,3720,
+Apr 2018 to Mar 2019,England and Wales,16 years and over,Female,68.8,70.5,67.2,4400,
+Apr 2019 to Mar 2020,England and Wales,16 years and over,Male,86.8,88.1,85.6,3650,
+Apr 2019 to Mar 2020,England and Wales,16 years and over,Female,69.0,70.6,67.4,4250,
+Apr 2020 to Mar 2021,England and Wales,16 years and over,Male,,,,0,
+Apr 2020 to Mar 2021,England and Wales,16 years and over,Female,,,,0,
+Apr 2021 to Mar 2022,England and Wales,16 years and over,Male,,,,0,
+Apr 2021 to Mar 2022,England and Wales,16 years and over,Female,,,,0,
+Apr 2022 to Mar 2023,England and Wales,16 years and over,Male,89.7,90.9,88.4,3460,
+Apr 2022 to Mar 2023,England and Wales,16 years and over,Female,69.0,70.7,67.2,3900,
+Apr 2022 to Mar 2023,England,16 years and over,Male,89.6,90.8,88.3,3200,
+Apr 2022 to Mar 2023,England,16 years and over,Female,69.0,70.8,67.2,3600,
+Apr 2022 to Mar 2023,North East,16 years and over,Male,89.4,93.2,83.9,180,
+Apr 2022 to Mar 2023,North East,16 years and over,Female,59.8,68.2,50.7,210,
+Apr 2022 to Mar 2023,North West,16 years and over,Male,90.4,92.9,87.1,420,
+Apr 2022 to Mar 2023,North West,16 years and over,Female,66.1,71.1,60.8,470,
+Apr 2022 to Mar 2023,Yorkshire and The Humber,16 years and over,Male,87.2,91.6,81.0,260,
+Apr 2022 to Mar 2023,Yorkshire and The Humber,16 years and over,Female,67.9,74.0,61.2,320,
+Apr 2022 to Mar 2023,East Midlands,16 years and over,Male,89.3,92.6,84.8,360,
+Apr 2022 to Mar 2023,East Midlands,16 years and over,Female,70.2,75.7,64.1,370,
+Apr 2022 to Mar 2023,West Midlands,16 years and over,Male,87.4,90.5,83.5,420,
+Apr 2022 to Mar 2023,West Midlands,16 years and over,Female,62.3,67.2,57.1,450,
+Apr 2022 to Mar 2023,East of England,16 years and over,Male,89.4,92.7,85.0,370,
+Apr 2022 to Mar 2023,East of England,16 years and over,Female,69.8,74.6,64.5,440,
+Apr 2022 to Mar 2023,London,16 years and over,Male,90.4,93.6,85.8,360,
+Apr 2022 to Mar 2023,London,16 years and over,Female,75.1,79.8,69.7,400,
+Apr 2022 to Mar 2023,South East,16 years and over,Male,90.7,93.3,87.1,490,
+Apr 2022 to Mar 2023,South East,16 years and over,Female,67.9,72.2,63.3,550,
+Apr 2022 to Mar 2023,South West,16 years and over,Male,91.1,94.2,86.5,340,
+Apr 2022 to Mar 2023,South West,16 years and over,Female,75.3,80.0,70.0,390,
+Apr 2022 to Mar 2023,Wales,16 years and over,Male,91.1,94.7,85.4,260,
+Apr 2022 to Mar 2023,Wales,16 years and over,Female,68.1,74.5,60.9,300,
+Apr 2022 to Mar 2023,England and Wales,16 to 24,Male,85.2,90.2,78.2,180,
+Apr 2022 to Mar 2023,England and Wales,16 to 24,Female,68.8,76.4,59.9,160,
+Apr 2022 to Mar 2023,England and Wales,25 to 34,Male,92.4,94.7,89.2,500,
+Apr 2022 to Mar 2023,England and Wales,25 to 34,Female,68.1,72.6,63.3,560,
+Apr 2022 to Mar 2023,England and Wales,35 to 44,Male,90.5,92.9,87.4,540,
+Apr 2022 to Mar 2023,England and Wales,35 to 44,Female,71.6,75.4,67.5,640,
+Apr 2022 to Mar 2023,England and Wales,45 to 54,Male,91.7,94.0,88.6,520,
+Apr 2022 to Mar 2023,England and Wales,45 to 54,Female,74.1,78.0,69.8,580,
+Apr 2022 to Mar 2023,England and Wales,55 to 64,Male,91.3,93.4,88.6,620,
+Apr 2022 to Mar 2023,England and Wales,55 to 64,Female,69.2,73.1,65.1,680,
+Apr 2022 to Mar 2023,England and Wales,65 to 74,Male,88.4,91.0,85.3,610,
+Apr 2022 to Mar 2023,England and Wales,65 to 74,Female,67.9,72.0,63.7,660,
+Apr 2022 to Mar 2023,England and Wales,75 and over,Male,84.6,87.8,80.7,510,
+Apr 2022 to Mar 2023,England and Wales,75 and over,Female,60.6,64.7,56.3,620,
