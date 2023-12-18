@@ -1,0 +1,75 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "UK Measures of National Well-being: November 2023",
+    "summary": "People who felt fairly or very safe walking alone in their local area after dark by sex, England and Wales, 2012 to 2023",
+    "description": "A combination of two tables, Table 5.6a containing percentage estimates for adults aged 16 years and over, from April 2012 to March 2023 by sex. Table 5.6b contains percentage estimates for the latest period, April 2022 to March 2023, broken down by country, English region and age for each sex. This publication contains accredited official statistics (previously called National Statistics) and other official statistics. Accredited official statistics are fully compliant with the Code of Practice for Statistics and carry the National Statistics kitemark. Data availability varies across the measures depending on the data type and what information is shared by the data owner. As such, sample sizes, confidence intervals and sub-population breakdowns by countries and regions, age and sex are not presented for some of the measures. The majority of the national well-being measures are based on cross-sectional survey data, which means that the information was collected from a sample of the population of interest at a point in time, and then weighted to adjust the estimates for representativeness of the population. Therefore, the estimates are subject to uncertainty, which is expressed using 95% confidence intervals (where available). When interpreting the latest estimates and the presented assessments of change, the potential impact of the coronavirus pandemic on individual’s attitudes and survey responses, as well as the impact on data collection, should be kept in mind, given the major disruption COVID-19 caused in people’s lives. Sample sizes have been rounded to the nearest ten. Due to the suspension of the CSEW during the Coronavirus (COVID-19) pandemic, data are not available for April 2020 to March 2021 and April 2021 to March 2022. Data are not available for April 2016 to March 2017 because the question was not included in the survey during this period.",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "public_contact_point_uri": "mailto:Media.Relations@ons.gov.uk",
+    "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "dataset_issued": "2023-11-10T00:00:00Z",
+    "dataset_modified": "2023-11-10T00:00:00Z",
+    "keywords": [
+        "safety",
+        "darkness",
+        "walking",
+        "male",
+        "female",
+        "local" 
+    ],
+    "columns": {
+        "RefPeriod": {
+            "type": "dimension",
+            "label": "RefPeriod"
+        },
+        "refArea": {
+            "type": "dimension",
+            "label": "refArea"
+        },
+        "Age": {
+            "type": "dimension",
+            "label": "Age"
+        },
+        "Sex": {
+            "type": "dimension",
+            "label": "Sex"
+        },
+        "Value": {
+            "type": "observations",
+            "measure": {
+                "label": "Value",
+                "description": "Percentage of population",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+            },
+            "data_type": "float",
+            "unit": {
+                "label": "Number",
+                "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+            },
+            "UCL": {
+                "type": "attribute",
+                "data_type": "decimal",
+                "description": "upper confidence interval"
+            },
+            "LCL": {
+                "type": "attribute",
+                "data_type": "decimal",
+                "description": "lower confidence interval"
+            },
+            "sampleSize": {
+                "type": "observations",
+                "measure": {
+                    "label": "Value",
+                    "description": "Number of men participating in the survey",
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#count"
+                },
+                "data_type": "integer",
+                "unit": {
+                    "label": "Number",
+                    "from_existing": "http://qudt.org/vocab/unit/NUM"
+                }
+            }
+        }
+    }
+}
