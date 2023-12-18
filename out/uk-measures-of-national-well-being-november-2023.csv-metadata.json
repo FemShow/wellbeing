@@ -1,0 +1,1141 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "@id": "uk-measures-of-national-well-being-november-2023.csv#dataset",
+    "tables": [
+        {
+            "url": "uk-measures-of-national-well-being-november-2023.csv",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "titles": "RefPeriod",
+                        "name": "refperiod",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#dimension/refperiod",
+                        "valueUrl": "refperiod.csv#{+refperiod}",
+                        "required": true
+                    },
+                    {
+                        "titles": "refArea",
+                        "name": "refarea",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#dimension/refarea",
+                        "valueUrl": "refarea.csv#{+refarea}",
+                        "required": true
+                    },
+                    {
+                        "titles": "Age",
+                        "name": "age",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#dimension/age",
+                        "valueUrl": "age.csv#{+age}",
+                        "required": true
+                    },
+                    {
+                        "titles": "Sex",
+                        "name": "sex",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#dimension/sex",
+                        "valueUrl": "sex.csv#{+sex}",
+                        "required": true
+                    },
+                    {
+                        "titles": "Value",
+                        "name": "value",
+                        "aboutUrl": "uk-measures-of-national-well-being-november-2023.csv#obs/{refperiod},{refarea},{age},{sex},{ucl},{lcl},{samplesize}@value",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#measure/value",
+                        "datatype": "float",
+                        "required": true
+                    },
+                    {
+                        "titles": "UCL",
+                        "name": "ucl",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#dimension/ucl",
+                        "valueUrl": "ucl.csv#{+ucl}",
+                        "required": true
+                    },
+                    {
+                        "titles": "LCL",
+                        "name": "lcl",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#dimension/lcl",
+                        "valueUrl": "lcl.csv#{+lcl}",
+                        "required": true
+                    },
+                    {
+                        "titles": "sampleSize",
+                        "name": "samplesize",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#dimension/samplesize",
+                        "valueUrl": "samplesize.csv#{+samplesize}",
+                        "required": true
+                    },
+                    {
+                        "name": "virt_slice",
+                        "virtual": true,
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Slice"
+                    },
+                    {
+                        "name": "virt_slice_structure",
+                        "virtual": true,
+                        "propertyUrl": "qb:sliceStructure",
+                        "valueUrl": "uk-measures-of-national-well-being-november-2023.csv#slice/cross-measures"
+                    },
+                    {
+                        "name": "virt_obs_value",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "uk-measures-of-national-well-being-november-2023.csv#obs/{refperiod},{refarea},{age},{sex},{ucl},{lcl},{samplesize}@value"
+                    },
+                    {
+                        "name": "virt_obs_value_meas",
+                        "virtual": true,
+                        "aboutUrl": "uk-measures-of-national-well-being-november-2023.csv#obs/{refperiod},{refarea},{age},{sex},{ucl},{lcl},{samplesize}@value",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "uk-measures-of-national-well-being-november-2023.csv#measure/value"
+                    },
+                    {
+                        "name": "virt_obs_value_unit",
+                        "virtual": true,
+                        "aboutUrl": "uk-measures-of-national-well-being-november-2023.csv#obs/{refperiod},{refarea},{age},{sex},{ucl},{lcl},{samplesize}@value",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "uk-measures-of-national-well-being-november-2023.csv#unit/number"
+                    },
+                    {
+                        "name": "virt_dim_value_refperiod",
+                        "virtual": true,
+                        "aboutUrl": "uk-measures-of-national-well-being-november-2023.csv#obs/{refperiod},{refarea},{age},{sex},{ucl},{lcl},{samplesize}@value",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#dimension/refperiod",
+                        "valueUrl": "refperiod.csv#{+refperiod}"
+                    },
+                    {
+                        "name": "virt_dim_value_refarea",
+                        "virtual": true,
+                        "aboutUrl": "uk-measures-of-national-well-being-november-2023.csv#obs/{refperiod},{refarea},{age},{sex},{ucl},{lcl},{samplesize}@value",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#dimension/refarea",
+                        "valueUrl": "refarea.csv#{+refarea}"
+                    },
+                    {
+                        "name": "virt_dim_value_age",
+                        "virtual": true,
+                        "aboutUrl": "uk-measures-of-national-well-being-november-2023.csv#obs/{refperiod},{refarea},{age},{sex},{ucl},{lcl},{samplesize}@value",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#dimension/age",
+                        "valueUrl": "age.csv#{+age}"
+                    },
+                    {
+                        "name": "virt_dim_value_sex",
+                        "virtual": true,
+                        "aboutUrl": "uk-measures-of-national-well-being-november-2023.csv#obs/{refperiod},{refarea},{age},{sex},{ucl},{lcl},{samplesize}@value",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#dimension/sex",
+                        "valueUrl": "sex.csv#{+sex}"
+                    },
+                    {
+                        "name": "virt_dim_value_ucl",
+                        "virtual": true,
+                        "aboutUrl": "uk-measures-of-national-well-being-november-2023.csv#obs/{refperiod},{refarea},{age},{sex},{ucl},{lcl},{samplesize}@value",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#dimension/ucl",
+                        "valueUrl": "ucl.csv#{+ucl}"
+                    },
+                    {
+                        "name": "virt_dim_value_lcl",
+                        "virtual": true,
+                        "aboutUrl": "uk-measures-of-national-well-being-november-2023.csv#obs/{refperiod},{refarea},{age},{sex},{ucl},{lcl},{samplesize}@value",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#dimension/lcl",
+                        "valueUrl": "lcl.csv#{+lcl}"
+                    },
+                    {
+                        "name": "virt_dim_value_samplesize",
+                        "virtual": true,
+                        "aboutUrl": "uk-measures-of-national-well-being-november-2023.csv#obs/{refperiod},{refarea},{age},{sex},{ucl},{lcl},{samplesize}@value",
+                        "propertyUrl": "uk-measures-of-national-well-being-november-2023.csv#dimension/samplesize",
+                        "valueUrl": "samplesize.csv#{+samplesize}"
+                    },
+                    {
+                        "name": "virt_obs_value_type",
+                        "virtual": true,
+                        "aboutUrl": "uk-measures-of-national-well-being-november-2023.csv#obs/{refperiod},{refarea},{age},{sex},{ucl},{lcl},{samplesize}@value",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_value",
+                        "virtual": true,
+                        "aboutUrl": "uk-measures-of-national-well-being-november-2023.csv#obs/{refperiod},{refarea},{age},{sex},{ucl},{lcl},{samplesize}@value",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "uk-measures-of-national-well-being-november-2023.csv#dataset"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": "refperiod",
+                        "reference": {
+                            "resource": "refperiod.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "refarea",
+                        "reference": {
+                            "resource": "refarea.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "age",
+                        "reference": {
+                            "resource": "age.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "sex",
+                        "reference": {
+                            "resource": "sex.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "ucl",
+                        "reference": {
+                            "resource": "ucl.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "lcl",
+                        "reference": {
+                            "resource": "lcl.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "samplesize",
+                        "reference": {
+                            "resource": "samplesize.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "refperiod",
+                    "refarea",
+                    "age",
+                    "sex",
+                    "ucl",
+                    "lcl",
+                    "samplesize"
+                ],
+                "aboutUrl": "uk-measures-of-national-well-being-november-2023.csv#slice/{refperiod},{refarea},{age},{sex},{ucl},{lcl},{samplesize}"
+            }
+        },
+        {
+            "url": "refperiod.csv",
+            "tableSchema": "refperiod.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "refarea.csv",
+            "tableSchema": "refarea.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "age.csv",
+            "tableSchema": "age.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "sex.csv",
+            "tableSchema": "sex.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "ucl.csv",
+            "tableSchema": "ucl.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "lcl.csv",
+            "tableSchema": "lcl.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "samplesize.csv",
+            "tableSchema": "samplesize.table.json",
+            "suppressOutput": true
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#component/value",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#measure/value"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#measure/value"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 7
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#component/measure-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dataset",
+            "@type": [
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://purl.org/linked-data/cube#Attachable",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/dc/terms/creator": [
+                {
+                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
+                }
+            ],
+            "http://purl.org/dc/terms/description": [
+                {
+                    "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
+                    "@value": "A combination of two tables, Table 5.6a containing percentage estimates for adults aged 16 years and over, from April 2012 to March 2023 by sex. Table 5.6b contains percentage estimates for the latest period, April 2022 to March 2023, broken down by country, English region and age for each sex. This publication contains accredited official statistics (previously called National Statistics) and other official statistics. Accredited official statistics are fully compliant with the Code of Practice for Statistics and carry the National Statistics kitemark. Data availability varies across the measures depending on the data type and what information is shared by the data owner. As such, sample sizes, confidence intervals and sub-population breakdowns by countries and regions, age and sex are not presented for some of the measures. The majority of the national well-being measures are based on cross-sectional survey data, which means that the information was collected from a sample of the population of interest at a point in time, and then weighted to adjust the estimates for representativeness of the population. Therefore, the estimates are subject to uncertainty, which is expressed using 95% confidence intervals (where available). When interpreting the latest estimates and the presented assessments of change, the potential impact of the coronavirus pandemic on individual\u2019s attitudes and survey responses, as well as the impact on data collection, should be kept in mind, given the major disruption COVID-19 caused in people\u2019s lives. Sample sizes have been rounded to the nearest ten. Due to the suspension of the CSEW during the Coronavirus (COVID-19) pandemic, data are not available for April 2020 to March 2021 and April 2021 to March 2022. Data are not available for April 2016 to March 2017 because the question was not included in the survey during this period."
+                }
+            ],
+            "http://purl.org/dc/terms/identifier": [
+                {
+                    "@value": "UK Measures of National Well-being: November 2023"
+                }
+            ],
+            "http://purl.org/dc/terms/issued": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-11-10T00:00:00"
+                }
+            ],
+            "http://purl.org/dc/terms/license": [
+                {
+                    "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+                }
+            ],
+            "http://purl.org/dc/terms/modified": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-11-10T00:00:00"
+                }
+            ],
+            "http://purl.org/dc/terms/publisher": [
+                {
+                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
+                }
+            ],
+            "http://purl.org/dc/terms/title": [
+                {
+                    "@language": "en",
+                    "@value": "UK Measures of National Well-being: November 2023"
+                }
+            ],
+            "http://purl.org/linked-data/cube#structure": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#structure"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "People who felt fairly or very safe walking alone in their local area after dark by sex, England and Wales, 2012 to 2023"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "UK Measures of National Well-being: November 2023"
+                }
+            ],
+            "http://www.w3.org/ns/dcat#keyword": [
+                {
+                    "@language": "en",
+                    "@value": "male"
+                },
+                {
+                    "@language": "en",
+                    "@value": "darkness"
+                },
+                {
+                    "@language": "en",
+                    "@value": "female"
+                },
+                {
+                    "@language": "en",
+                    "@value": "walking"
+                },
+                {
+                    "@language": "en",
+                    "@value": "safety"
+                },
+                {
+                    "@language": "en",
+                    "@value": "local"
+                }
+            ],
+            "http://www.w3.org/ns/dcat#theme": [
+                {
+                    "@id": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasGeneratedBy": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#csvcubed-build-activity"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#component/lcl",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/lcl"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/lcl"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 9
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/ucl",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "ucl.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "UCL"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#class/ucl"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#component/unit",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.4"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#component/samplesize",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/samplesize"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/samplesize"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 10
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/sex",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "sex.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Sex"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#class/sex"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#class/age",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#component/refperiod",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/refperiod"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/refperiod"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#class/refarea",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/lcl",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "lcl.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "LCL"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#class/lcl"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/refarea",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "refarea.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "refArea"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#class/refarea"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#component/sex",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/sex"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/sex"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/refperiod",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "refperiod.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "RefPeriod"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#class/refperiod"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/refperiod"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/age"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/refarea"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/sex"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/lcl"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/ucl"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/samplesize"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#measure/value",
+            "@type": [
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "Percentage of population"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Value"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#float"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#component/ucl",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/ucl"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/ucl"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 8
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#component/refarea",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/refarea"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/refarea"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#class/refperiod",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#component/age",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/age"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/age"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/age",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "age.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Age"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#class/age"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#class/samplesize",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#class/sex",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/samplesize",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "samplesize.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "sampleSize"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#class/samplesize"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#structure",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataStructureDefinition"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#component/measure-type"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#component/value"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#component/unit"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#component/lcl"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#component/refperiod"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#component/age"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#component/samplesize"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#component/refarea"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#component/sex"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#component/ucl"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/age"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/refperiod"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/lcl"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/samplesize"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#measure/value"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/refarea"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/ucl"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#dimension/sex"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "uk-measures-of-national-well-being-november-2023.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#class/lcl",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#class/ucl",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dependency/refperiod",
+            "@type": [
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./refperiod.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "refperiod.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dependency/refarea",
+            "@type": [
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./refarea.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "refarea.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dependency/age",
+            "@type": [
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./age.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "age.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dependency/sex",
+            "@type": [
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./sex.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "sex.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dependency/ucl",
+            "@type": [
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./ucl.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "ucl.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dependency/lcl",
+            "@type": [
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./lcl.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "lcl.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#dependency/samplesize",
+            "@type": [
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./samplesize.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "samplesize.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "uk-measures-of-national-well-being-november-2023.csv#unit/number",
+            "@type": [
+                "http://qudt.org/schema/qudt/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+            ],
+            "http://qudt.org/schema/qudt/isScalingOf": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/PERCENT"
+                }
+            ],
+            "http://www.ontology-of-units-of-measure.org/resource/om-2/hasFactor": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#float",
+                    "@value": "1.0"
+                }
+            ],
+            "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/PERCENT"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/PERCENT"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Number"
+                }
+            ]
+        }
+    ]
+}

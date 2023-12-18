@@ -1,0 +1,13 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description
+east-midlands,East Midlands,east-midlands,,0,
+east-of-england,East of England,east-of-england,,1,
+england,England,england,,2,
+england-and-wales,England and Wales,england-and-wales,,3,
+london,London,london,,4,
+north-east,North East,north-east,,5,
+north-west,North West,north-west,,6,
+south-east,South East,south-east,,7,
+south-west,South West,south-west,,8,
+wales,Wales,wales,,9,
+west-midlands,West Midlands,west-midlands,,10,
+yorkshire-and-the-humber,Yorkshire and The Humber,yorkshire-and-the-humber,,11,
