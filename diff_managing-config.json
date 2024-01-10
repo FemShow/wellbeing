@@ -1,0 +1,72 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "People who report finding it quite or very difficult to manage financially",
+    "summary": "Percentage estimates for adults aged 16 years and over in the UK, from January 2009 to December 2021 and percentage estimates for the latest period, January 2020 to December 2021, broken down by UK country, English region, age and sex.",
+    "description": "Respondents were asked to rate; How well would you say you yourself are managing financially these days? on a 5-point scale from -living comfortably- to -finding it very difficult-.",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "public_contact_point_uri": "mailto:Media.Relations@ons.gov.uk",
+    "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "dataset_issued": "2023-11-10T00:00:00Z",
+    "dataset_modified": "2023-11-10T00:00:00Z",
+    "keywords": [
+        "money",
+        "living",
+        "comfortably",
+        "male",
+        "female",
+        "difficult",
+        "financially"
+    ],
+    "columns": {
+        "refPeriod": {
+            "type": "dimension",
+            "label": "refPeriod"
+        },
+        "refArea": {
+            "type": "dimension",
+            "label": "refArea"
+        },
+        "Situation": {
+            "type": "dimension",
+            "label": "Situation"
+        },
+        "Age": {
+            "type": "dimension",
+            "label": "Age"
+        },
+        "Sex": {
+            "type": "dimension",
+            "label":"Sex"
+        },
+        "Value": {
+            "type": "observations",
+            "measure": {
+                "label": "Value",
+                "description": "Percentage of population",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+            },
+            "data_type": "decimal",
+            "unit": {
+                "label": "Number",
+                "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+            }
+        },
+        "UCL": {
+            "type": "attribute",
+            "data_type": "decimal",
+            "description": "upper confidence interval"
+        },
+        "LCL": {
+            "type": "attribute",
+            "data_type": "decimal",
+            "description": "lower confidence interval"
+        },
+        "sampleSize": {
+            "type": "attribute",
+            "data_type": "integer",
+            "label": "Sample size"
+        }
+    }
+}
