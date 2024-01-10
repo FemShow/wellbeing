@@ -1,0 +1,88 @@
+
+- This file is a data cube.
+
+
+        - The data cube has the following catalog metadata:
+          - Title: People who report finding it quite or very difficult to manage financially
+          - Label: People who report finding it quite or very difficult to manage financially
+          - Issued: 2023-11-10T00:00:00
+          - Modified: 2023-11-10T00:00:00
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
+		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
+          - Keywords: 
+		-- living
+		-- difficult
+		-- male
+		-- financially
+		-- female
+		-- money
+		-- comfortably
+          - Contact Point: None
+          - Identifier: People who report finding it quite or very difficult to manage financially
+          - Comment: Percentage estimates for adults aged 16 years and over in the UK, from January 2009 to December 2021 and percentage estimates for the latest period, January 2020 to December 2021, broken down by UK country, English region, age and sex.
+          - Description: Respondents were asked to rate; How well would you say you yourself are managing financially these days? on a 5-point scale from -living comfortably- to -finding it very difficult-.
+        
+
+ - The data cube has the following column component information: 
+    - Dataset Label: People who report finding it quite or very difficult to manage financially
+    - Columns: 
+         Title         Type  Required                                                                                         Property URL Observations Column Titles
+     refPeriod    Dimension      True   people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/refperiod                      Value
+       refArea    Dimension      True     people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/refarea                      Value
+     Situation    Dimension      True   people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/situation                      Value
+           Age    Dimension      True         people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/age                      Value
+           Sex    Dimension      True         people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/sex                      Value
+         Value Observations      True         people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#measure/value                      Value
+           UCL    Attribute     False         people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#attribute/ucl                      Value
+           LCL    Attribute     False         people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#attribute/lcl                      Value
+    sampleSize    Attribute     False people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#attribute/sample-size                      Value
+    - Columns where suppress output is true: None
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 5
+        - Code Lists:
+              Code List Code List Label Columns Used In
+      age.csv#code-list             Age             Age
+  refarea.csv#code-list         refArea         refArea
+refperiod.csv#code-list       refPeriod       refPeriod
+      sex.csv#code-list             Sex             Sex
+situation.csv#code-list       Situation       Situation
+
+- The data cube has the following dataset information:
+        - Number of Rows: 84
+        - Number of Duplicates: 0
+        - First 10 Rows: 
+           refPeriod        refArea                          Situation               Age Sex  Value  UCL  LCL  sampleSize
+jan-2010-to-dec-2011 united-kingdom finding-it-quite-or-very-difficult 16-years-and-over any   10.9 10.6 11.3     50620.0
+jan-2010-to-dec-2011 united-kingdom                 living-comfortably 16-years-and-over any   28.0  NaN  NaN         NaN
+jan-2010-to-dec-2011 united-kingdom                      doing-alright 16-years-and-over any   34.3  NaN  NaN         NaN
+jan-2010-to-dec-2011 united-kingdom              just-about-getting-by 16-years-and-over any   26.8  NaN  NaN         NaN
+jan-2010-to-dec-2011 united-kingdom         finding-it-quite-difficult 16-years-and-over any    7.6  NaN  NaN         NaN
+jan-2010-to-dec-2011 united-kingdom          finding-it-very-difficult 16-years-and-over any    3.3  NaN  NaN         NaN
+jan-2011-to-dec-2012 united-kingdom finding-it-quite-or-very-difficult 16-years-and-over any   10.9 10.5 11.3     45670.0
+jan-2011-to-dec-2012 united-kingdom                 living-comfortably 16-years-and-over any   27.8  NaN  NaN         NaN
+jan-2011-to-dec-2012 united-kingdom                      doing-alright 16-years-and-over any   34.8  NaN  NaN         NaN
+jan-2011-to-dec-2012 united-kingdom              just-about-getting-by 16-years-and-over any   26.5  NaN  NaN         NaN
+        - Last 10 Rows: 
+           refPeriod          refArea                          Situation               Age    Sex  Value  UCL  LCL  sampleSize
+jan-2020-to-dec-2021            wales finding-it-quite-or-very-difficult 16-years-and-over    any    6.4  4.7  8.1      1880.0
+jan-2020-to-dec-2021         scotland finding-it-quite-or-very-difficult 16-years-and-over    any    6.3  4.9  7.7      2470.0
+jan-2020-to-dec-2021 northern-ireland finding-it-quite-or-very-difficult 16-years-and-over    any    5.7  4.1  7.3      1810.0
+jan-2020-to-dec-2021   united-kingdom finding-it-quite-or-very-difficult     aged-25-to-34    any    8.8  7.2 10.4      3480.0
+jan-2020-to-dec-2021   united-kingdom finding-it-quite-or-very-difficult     aged-35-to-49    any    8.9  7.9 10.0      6550.0
+jan-2020-to-dec-2021   united-kingdom finding-it-quite-or-very-difficult     aged-50-to-64    any    7.5  6.7  8.3      8060.0
+jan-2020-to-dec-2021   united-kingdom finding-it-quite-or-very-difficult     aged-65-to-74    any    2.8  2.2  3.5      4560.0
+jan-2020-to-dec-2021   united-kingdom finding-it-quite-or-very-difficult  aged-75-and-over    any    1.4  0.9  1.8      3070.0
+jan-2020-to-dec-2021   united-kingdom finding-it-quite-or-very-difficult 16-years-and-over   male    6.5  5.8  7.1     12700.0
+jan-2020-to-dec-2021   united-kingdom finding-it-quite-or-very-difficult 16-years-and-over female    6.7  6.2  7.3     16170.0
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+Measure   Unit  Count
+  Value Number     84
+        
