@@ -1,0 +1,71 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "People who agree or strongly agree that they feel like they belong to their neighbourhood",
+    "summary": "Contains percentage estimates for adults in Great Britain, from 22 June 2022 to 3 September 2023,and the percentage estimates for the latest period, 23 August to 3 September 2023, broken down by age and sex.",
+    "description": "Adults aged 16 years and over were asked to rate to what extent do they agree with the statement ‘I feel like I belong to this neighbourhood' on a 5-point scale from 'strongly agree' to 'strongly disagree'",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "public_contact_point_uri": "mailto:Media.Relations@ons.gov.uk",
+    "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "dataset_issued": "2023-11-10T00:00:00Z",
+    "dataset_modified": "2023-11-10T00:00:00Z",
+    "keywords": [
+        "belong",
+        "living",
+        "comfortably",
+        "male",
+        "female",
+        "comfort"
+    ],
+    "columns": {
+        "refPeriod": {
+            "type": "dimension",
+            "label": "refPeriod"
+        },
+        "refArea": {
+            "type": "dimension",
+            "label": "refArea"
+        },
+        "Situation": {
+            "type": "dimension",
+            "label": "Situation"
+        },
+        "Age": {
+            "type": "dimension",
+            "label": "Age"
+        },
+        "Sex": {
+            "type": "dimension",
+            "label":"Sex"
+        },
+        "Value": {
+            "type": "observations",
+            "measure": {
+                "label": "Value",
+                "description": "Percentage of population",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+            },
+            "data_type": "decimal",
+            "unit": {
+                "label": "Number",
+                "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+            }
+        },
+        "UCL": {
+            "type": "attribute",
+            "data_type": "decimal",
+            "description": "upper confidence interval"
+        },
+        "LCL": {
+            "type": "attribute",
+            "data_type": "decimal",
+            "description": "lower confidence interval"
+        },
+        "sampleSize": {
+            "type": "attribute",
+            "data_type": "integer",
+            "label": "Sample size"
+        }
+    }
+}
