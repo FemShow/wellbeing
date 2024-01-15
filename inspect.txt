@@ -3,8 +3,8 @@
 
 
         - The data cube has the following catalog metadata:
-          - Title: People who report finding it quite or very difficult to manage financially
-          - Label: People who report finding it quite or very difficult to manage financially
+          - Title: People who feel lonely often or always
+          - Label: People who feel lonely often or always
           - Issued: 2023-11-10T00:00:00
           - Modified: 2023-11-10T00:00:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
@@ -14,32 +14,31 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
           - Keywords: 
-		-- comfortably
-		-- money
 		-- female
-		-- financially
-		-- living
-		-- difficult
 		-- male
+		-- lonely
+		-- difficult
+		-- living
+		-- alone
           - Contact Point: None
-          - Identifier: People who report finding it quite or very difficult to manage financially
-          - Comment: Percentage estimates for adults aged 16 years and over in the UK, from January 2009 to December 2021 and percentage estimates for the latest period, January 2020 to December 2021, broken down by UK country, English region, age and sex.
-          - Description: Respondents were asked to rate; How well would you say you yourself are managing financially these days? on a 5-point scale from -living comfortably- to -finding it very difficult-.
+          - Identifier: People who feel lonely often or always
+          - Comment: Percentage estimates for adults in Great Britain who feel lonely often or always, from 30 March 2022 to 29 October 2023 and percentage estimates for the latest period, of people who feel lonely often or always from 18 October to 29 October 2023, broken down by age and sex.
+          - Description: Adults aged 16 years and over were asked how often they felt lonely. The answer options were 'often or always', 'some of the time', 'occasionally', 'hardly ever' and 'never'.
         
 
  - The data cube has the following column component information: 
-    - Dataset Label: People who report finding it quite or very difficult to manage financially
+    - Dataset Label: People who feel lonely often or always
     - Columns: 
-         Title         Type  Required                                                                                         Property URL Observations Column Titles
-     refPeriod    Dimension      True   people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/refperiod                     Values
-       refArea    Dimension      True     people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/refarea                     Values
-     Situation    Dimension      True   people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/situation                     Values
-           Age    Dimension      True         people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/age                     Values
-           Sex    Dimension      True         people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/sex                     Values
-        Values Observations      True        people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#measure/values                     Values
-           LCL    Attribute     False         people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#attribute/lcl                     Values
-           UCL    Attribute     False         people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#attribute/ucl                     Values
-    sampleSize    Attribute     False people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#attribute/sample-size                     Values
+         Title         Type  Required                                                     Property URL Observations Column Titles
+     refPeriod    Dimension      True   people-who-feel-lonely-often-or-always.csv#dimension/refperiod                     Values
+       refArea    Dimension      True     people-who-feel-lonely-often-or-always.csv#dimension/refarea                     Values
+     Situation    Dimension      True   people-who-feel-lonely-often-or-always.csv#dimension/situation                     Values
+           Age    Dimension      True         people-who-feel-lonely-often-or-always.csv#dimension/age                     Values
+           Sex    Dimension      True         people-who-feel-lonely-often-or-always.csv#dimension/sex                     Values
+        Values Observations      True        people-who-feel-lonely-often-or-always.csv#measure/values                     Values
+           LCL    Attribute     False         people-who-feel-lonely-often-or-always.csv#attribute/lcl                     Values
+           UCL    Attribute     False         people-who-feel-lonely-often-or-always.csv#attribute/ucl                     Values
+    sampleSize    Attribute     False people-who-feel-lonely-often-or-always.csv#attribute/sample-size                     Values
     - Columns where suppress output is true: None
 
 - The data cube has the following code list information:
