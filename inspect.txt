@@ -3,8 +3,8 @@
 
 
         - The data cube has the following catalog metadata:
-          - Title: People who agree or strongly agree that they feel like they belong to their neighbourhood
-          - Label: People who agree or strongly agree that they feel like they belong to their neighbourhood
+          - Title: People who report finding it quite or very difficult to manage financially
+          - Label: People who report finding it quite or very difficult to manage financially
           - Issued: 2023-11-10T00:00:00
           - Modified: 2023-11-10T00:00:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
@@ -14,31 +14,32 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
           - Keywords: 
-		-- comfort
 		-- comfortably
+		-- money
 		-- female
+		-- financially
 		-- living
+		-- difficult
 		-- male
-		-- belong
           - Contact Point: None
-          - Identifier: People who agree or strongly agree that they feel like they belong to their neighbourhood
-          - Comment: Contains percentage estimates for adults in Great Britain, from 22 June 2022 to 3 September 2023,and the percentage estimates for the latest period, 23 August to 3 September 2023, broken down by age and sex.
-          - Description: Adults aged 16 years and over were asked to rate to what extent do they agree with the statement ‘I feel like I belong to this neighbourhood' on a 5-point scale from 'strongly agree' to 'strongly disagree'
+          - Identifier: People who report finding it quite or very difficult to manage financially
+          - Comment: Percentage estimates for adults aged 16 years and over in the UK, from January 2009 to December 2021 and percentage estimates for the latest period, January 2020 to December 2021, broken down by UK country, English region, age and sex.
+          - Description: Respondents were asked to rate; How well would you say you yourself are managing financially these days? on a 5-point scale from -living comfortably- to -finding it very difficult-.
         
 
  - The data cube has the following column component information: 
-    - Dataset Label: People who agree or strongly agree that they feel like they belong to their neighbourhood
+    - Dataset Label: People who report finding it quite or very difficult to manage financially
     - Columns: 
-         Title         Type  Required                                                                                                        Property URL Observations Column Titles
-     refPeriod    Dimension      True   people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/refperiod                      Value
-       refArea    Dimension      True     people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/refarea                      Value
-     Situation    Dimension      True   people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/situation                      Value
-           Age    Dimension      True         people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/age                      Value
-           Sex    Dimension      True         people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/sex                      Value
-         Value Observations      True         people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#measure/value                      Value
-           UCL    Attribute     False         people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#attribute/ucl                      Value
-           LCL    Attribute     False         people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#attribute/lcl                      Value
-    sampleSize    Attribute     False people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#attribute/sample-size                      Value
+         Title         Type  Required                                                                                         Property URL Observations Column Titles
+     refPeriod    Dimension      True   people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/refperiod                     Values
+       refArea    Dimension      True     people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/refarea                     Values
+     Situation    Dimension      True   people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/situation                     Values
+           Age    Dimension      True         people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/age                     Values
+           Sex    Dimension      True         people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#dimension/sex                     Values
+        Values Observations      True        people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#measure/values                     Values
+           LCL    Attribute     False         people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#attribute/lcl                     Values
+           UCL    Attribute     False         people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#attribute/ucl                     Values
+    sampleSize    Attribute     False people-who-report-finding-it-quite-or-very-difficult-to-manage-financially.csv#attribute/sample-size                     Values
     - Columns where suppress output is true: None
 
 - The data cube has the following code list information:
@@ -52,36 +53,36 @@ refperiod.csv#code-list       refPeriod       refPeriod
 situation.csv#code-list       Situation       Situation
 
 - The data cube has the following dataset information:
-        - Number of Rows: 32
+        - Number of Rows: 46
         - Number of Duplicates: 0
         - First 10 Rows: 
-           refPeriod       refArea                 Situation               Age Sex  Value  UCL  LCL  sampleSize
-   11-to-22-jan-2023 great-britain   agree-or-strongly-agree 16-years-and-over any   54.8 51.6 57.9      1490.0
-   11-to-22-jan-2023 great-britain            strongly-agree 16-years-and-over any    9.6  NaN  NaN         NaN
-   11-to-22-jan-2023 great-britain                     agree 16-years-and-over any   45.1  NaN  NaN         NaN
-   11-to-22-jan-2023 great-britain neither-agree-or-disagree 16-years-and-over any   35.2  NaN  NaN         NaN
-   11-to-22-jan-2023 great-britain                  disagree 16-years-and-over any    8.2  NaN  NaN         NaN
-   11-to-22-jan-2023 great-britain         strongly-disagree 16-years-and-over any    1.8  NaN  NaN         NaN
-22-mar-to-2-apr-2023 great-britain   agree-or-strongly-agree 16-years-and-over any   53.5 51.1 56.0      2660.0
-22-mar-to-2-apr-2023 great-britain            strongly-agree 16-years-and-over any   11.4  NaN  NaN         NaN
-22-mar-to-2-apr-2023 great-britain                     agree 16-years-and-over any   42.1  NaN  NaN         NaN
-22-mar-to-2-apr-2023 great-britain neither-agree-or-disagree 16-years-and-over any   35.5  NaN  NaN         NaN
+              refPeriod       refArea                   Situation               Age Sex  Values  LCL  UCL  sampleSize
+  30-mar-to-10-apr-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     8.0  6.5  9.4        2480
+  13-apr-to-24-apr-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     5.4  4.1  6.8        2310
+   27-apr-to-8-may-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     6.4  5.1  7.8        2310
+  11-may-to-22-may-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     7.7  6.2  9.2        2250
+  25-may-to-5-june-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     7.2  5.6  8.8        2250
+ 8-june-to-19-june-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     7.1  5.5  8.7        2200
+ 22-june-to-3-july-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     5.8  4.4  7.2        2300
+ 6-july-to-17-july-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     6.2  4.9  7.6        2210
+20-july-to-31-july-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     8.5  6.9 10.2        2470
+   3-aug-to-14-aug-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     8.5  6.8 10.2        2190
         - Last 10 Rows: 
-            refPeriod       refArea               Situation               Age    Sex  Value  UCL  LCL  sampleSize
-23-aug-to-3-sept-2023 great-britain                disagree 16-years-and-over    any   10.0  NaN  NaN         NaN
-23-aug-to-3-sept-2023 great-britain       strongly-disagree 16-years-and-over    any    3.0  NaN  NaN         NaN
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree     aged-16-to-24    any   49.4 60.0 38.7       100.0
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree     aged-25-to-34    any   46.3 54.5 38.1       190.0
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree     aged-35-to-49    any   52.7 59.3 46.1       310.0
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree     aged-50-to-64    any   52.5 58.0 46.9       620.0
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree     aged-65-to-74    any   63.0 68.1 57.8       750.0
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree  aged-75-and-over    any   73.2 77.8 68.6       690.0
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree 16-years-and-over   male   54.8 50.4 59.3      1280.0
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree 16-years-and-over female   54.3 50.5 58.1      1390.0
+            refPeriod       refArea                          Situation               Age    Sex  Values  LCL  UCL  sampleSize
+20-sept-to-1-oct-2023 great-britain        feel-lonely-often-or-always 16-years-and-over    any     7.7  5.9  9.4        2360
+ 4-oct-to-15-oct-2023 great-britain        feel-lonely-often-or-always 16-years-and-over    any     6.4  4.9  7.8        2130
+18-oct-to-29-oct-2023 great-britain        feel-lonely-often-or-always 16-years-and-over    any     6.8  5.3  8.3        2410
+18-oct-to-29-oct-2023 great-britain        feel-lonely-often-or-always     aged-25-to-34    any    10.0 15.0  5.1         160
+18-oct-to-29-oct-2023 great-britain        feel-lonely-often-or-always     aged-35-to-49    any     7.2 10.5  4.0         270
+18-oct-to-29-oct-2023 great-britain        feel-lonely-often-or-always     aged-50-to-64    any     6.4  9.0  3.9         600
+18-oct-to-29-oct-2023 great-britain        feel-lonely-often-or-always     aged-65-to-74    any     3.5  5.2  1.7         630
+18-oct-to-29-oct-2023 great-britain        feel-lonely-often-or-always  aged-75-and-over    any     5.1  7.3  2.9         670
+18-oct-to-29-oct-2023 great-britain        feel-lonely-often-or-always 16-years-and-over   male     6.3  8.6  4.0        1150
+18-oct-to-29-oct-2023 great-britain finding-it-quite-or-very-difficult 16-years-and-over female     7.2  9.2  5.3        1260
         
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
 Measure   Unit  Count
-  Value Number     32
+ Values Number     46
         

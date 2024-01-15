@@ -1,0 +1,72 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "People who feel lonely often or always",
+    "summary": "Percentage estimates for adults in Great Britain who feel lonely often or always, from 30 March 2022 to 29 October 2023 and percentage estimates for the latest period, of people who feel lonely often or always from 18 October to 29 October 2023, broken down by age and sex.",
+    "description": "Adults aged 16 years and over were asked how often they felt lonely. The answer options were 'often or always', 'some of the time', 'occasionally', 'hardly ever' and 'never'.",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "public_contact_point_uri": "mailto:Media.Relations@ons.gov.uk",
+    "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "dataset_issued": "2023-11-10T00:00:00Z",
+    "dataset_modified": "2023-11-10T00:00:00Z",
+    "keywords": [
+        "lonely",
+        "living",
+        "comfortably",
+        "male",
+        "female",
+        "difficult",
+        "alone" 
+    ],
+    "columns": {
+        "refPeriod": {
+            "type": "dimension",
+            "label": "refPeriod"
+        },
+        "refArea": {
+            "type": "dimension",
+            "label": "refArea"
+        },
+        "Situation": {
+            "type": "dimension",
+            "label": "Situation"
+        },
+        "Age": {
+            "type": "dimension",
+            "label": "Age"
+        },
+        "Sex": {
+            "type": "dimension",
+            "label":"Sex"
+        },
+        "Values": {
+            "type": "observations",
+            "measure": {
+                "label": "Values",
+                "description": "Percentage of population",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+            },
+            "data_type": "decimal",
+            "unit": {
+                "label": "Number",
+                "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+            }
+        },
+        "LCL": {
+            "type": "attribute",
+            "data_type": "decimal",
+            "description": "lower confidence interval"
+        },
+        "UCL": {
+            "type": "attribute",
+            "data_type": "decimal",
+            "description": "upper confidence interval"
+        },
+        "sampleSize": {
+            "type": "attribute",
+            "data_type": "integer",
+            "label": "Sample size"
+        }
+    }
+}
