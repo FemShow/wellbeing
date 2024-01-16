@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
           - Keywords: 
-		-- female
 		-- male
-		-- lonely
-		-- difficult
 		-- living
+		-- lonely
+		-- female
 		-- alone
+		-- difficult
           - Contact Point: None
           - Identifier: People who feel lonely often or always
           - Comment: Percentage estimates for adults in Great Britain who feel lonely often or always, from 30 March 2022 to 29 October 2023 and percentage estimates for the latest period, of people who feel lonely often or always from 18 October to 29 October 2023, broken down by age and sex.
@@ -55,29 +55,29 @@ situation.csv#code-list       Situation       Situation
         - Number of Rows: 46
         - Number of Duplicates: 0
         - First 10 Rows: 
-              refPeriod       refArea                   Situation               Age Sex  Values  LCL  UCL  sampleSize
-  30-mar-to-10-apr-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     8.0  6.5  9.4        2480
-  13-apr-to-24-apr-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     5.4  4.1  6.8        2310
-   27-apr-to-8-may-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     6.4  5.1  7.8        2310
-  11-may-to-22-may-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     7.7  6.2  9.2        2250
-  25-may-to-5-june-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     7.2  5.6  8.8        2250
- 8-june-to-19-june-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     7.1  5.5  8.7        2200
- 22-june-to-3-july-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     5.8  4.4  7.2        2300
- 6-july-to-17-july-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     6.2  4.9  7.6        2210
-20-july-to-31-july-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     8.5  6.9 10.2        2470
-   3-aug-to-14-aug-2022 great-britain feel-lonely-often-or-always 16-years-and-over any     8.5  6.8 10.2        2190
+               refPeriod       refArea                   Situation               Age Sex  Values  LCL  UCL  sampleSize
+2022-03-30-to-2022-04-10 great-britain feel-lonely-often-or-always 16-years-and-over any     8.0  6.5  9.4        2480
+2022-04-13-to-2022-04-24 great-britain feel-lonely-often-or-always 16-years-and-over any     5.4  4.1  6.8        2310
+2022-04-27-to-2022-05-08 great-britain feel-lonely-often-or-always 16-years-and-over any     6.4  5.1  7.8        2310
+2022-05-11-to-2022-05-22 great-britain feel-lonely-often-or-always 16-years-and-over any     7.7  6.2  9.2        2250
+2022-05-25-to-2022-06-05 great-britain feel-lonely-often-or-always 16-years-and-over any     7.2  5.6  8.8        2250
+2022-06-08-to-2022-06-19 great-britain feel-lonely-often-or-always 16-years-and-over any     7.1  5.5  8.7        2200
+2022-06-22-to-2022-07-03 great-britain feel-lonely-often-or-always 16-years-and-over any     5.8  4.4  7.2        2300
+2022-07-06-to-2022-07-17 great-britain feel-lonely-often-or-always 16-years-and-over any     6.2  4.9  7.6        2210
+2022-07-20-to-2022-07-31 great-britain feel-lonely-often-or-always 16-years-and-over any     8.5  6.9 10.2        2470
+2022-08-03-to-2022-08-14 great-britain feel-lonely-often-or-always 16-years-and-over any     8.5  6.8 10.2        2190
         - Last 10 Rows: 
-            refPeriod       refArea                          Situation               Age    Sex  Values  LCL  UCL  sampleSize
-20-sept-to-1-oct-2023 great-britain        feel-lonely-often-or-always 16-years-and-over    any     7.7  5.9  9.4        2360
- 4-oct-to-15-oct-2023 great-britain        feel-lonely-often-or-always 16-years-and-over    any     6.4  4.9  7.8        2130
-18-oct-to-29-oct-2023 great-britain        feel-lonely-often-or-always 16-years-and-over    any     6.8  5.3  8.3        2410
-18-oct-to-29-oct-2023 great-britain        feel-lonely-often-or-always     aged-25-to-34    any    10.0 15.0  5.1         160
-18-oct-to-29-oct-2023 great-britain        feel-lonely-often-or-always     aged-35-to-49    any     7.2 10.5  4.0         270
-18-oct-to-29-oct-2023 great-britain        feel-lonely-often-or-always     aged-50-to-64    any     6.4  9.0  3.9         600
-18-oct-to-29-oct-2023 great-britain        feel-lonely-often-or-always     aged-65-to-74    any     3.5  5.2  1.7         630
-18-oct-to-29-oct-2023 great-britain        feel-lonely-often-or-always  aged-75-and-over    any     5.1  7.3  2.9         670
-18-oct-to-29-oct-2023 great-britain        feel-lonely-often-or-always 16-years-and-over   male     6.3  8.6  4.0        1150
-18-oct-to-29-oct-2023 great-britain finding-it-quite-or-very-difficult 16-years-and-over female     7.2  9.2  5.3        1260
+               refPeriod       refArea                   Situation               Age    Sex  Values  LCL  UCL  sampleSize
+2023-09-20-to-2023-10-01 great-britain feel-lonely-often-or-always 16-years-and-over    any     7.7  5.9  9.4        2360
+2023-10-04-to-2023-10-15 great-britain feel-lonely-often-or-always 16-years-and-over    any     6.4  4.9  7.8        2130
+2023-10-18-to-2023-10-29 great-britain feel-lonely-often-or-always 16-years-and-over    any     6.8  5.3  8.3        2410
+2023-10-18-to-2023-10-29 great-britain feel-lonely-often-or-always     aged-25-to-34    any    10.0 15.0  5.1         160
+2023-10-18-to-2023-10-29 great-britain feel-lonely-often-or-always     aged-35-to-49    any     7.2 10.5  4.0         270
+2023-10-18-to-2023-10-29 great-britain feel-lonely-often-or-always     aged-50-to-64    any     6.4  9.0  3.9         600
+2023-10-18-to-2023-10-29 great-britain feel-lonely-often-or-always     aged-65-to-74    any     3.5  5.2  1.7         630
+2023-10-18-to-2023-10-29 great-britain feel-lonely-often-or-always  aged-75-and-over    any     5.1  7.3  2.9         670
+2023-10-18-to-2023-10-29 great-britain feel-lonely-often-or-always 16-years-and-over   male     6.3  8.6  4.0        1150
+2023-10-18-to-2023-10-29 great-britain feel-lonely-often-or-always 16-years-and-over female     7.2  9.2  5.3        1260
         
 
 - The data cube has the following value counts:

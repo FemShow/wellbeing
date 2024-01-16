@@ -1,47 +1,47 @@
 refPeriod,refArea,Situation,Age,Sex,Values,LCL,UCL,sampleSize
-30 Mar to 10 Apr 2022,Great Britain,Feel lonely often or always,16 years and over,Any,8.0,6.5,9.4,2480
-13 Apr to 24 Apr 2022,Great Britain,Feel lonely often or always,16 years and over,Any,5.4,4.1,6.8,2310
-27 Apr to 8 May 2022,Great Britain,Feel lonely often or always,16 years and over,Any,6.4,5.1,7.8,2310
-11 May to 22 May 2022,Great Britain,Feel lonely often or always,16 years and over,Any,7.7,6.2,9.2,2250
-25 May to 5 June 2022,Great Britain,Feel lonely often or always,16 years and over,Any,7.2,5.6,8.8,2250
-8 June to 19 June 2022,Great Britain,Feel lonely often or always,16 years and over,Any,7.1,5.5,8.7,2200
-22 June to 3 July 2022,Great Britain,Feel lonely often or always,16 years and over,Any,5.8,4.4,7.2,2300
-6 July to 17 July 2022,Great Britain,Feel lonely often or always,16 years and over,Any,6.2,4.9,7.6,2210
-20 July to 31 July 2022,Great Britain,Feel lonely often or always,16 years and over,Any,8.5,6.9,10.2,2470
-3 Aug to 14 Aug 2022,Great Britain,Feel lonely often or always,16 years and over,Any,8.5,6.8,10.2,2190
-17 Aug to 29 Aug 2022,Great Britain,Feel lonely often or always,16 years and over,Any,7.6,6.0,9.2,2070
-31 Aug to 11 Sept 2022,Great Britain,Feel lonely often or always,16 years and over,Any,6.4,4.9,7.9,2070
-14 Sept to 25 Sept 2022,Great Britain,Feel lonely often or always,16 years and over,Any,7.4,5.8,9.0,2140
-29 Sept to 9 Oct 2022,Great Britain,Feel lonely often or always,16 years and over,Any,6.8,5.3,8.4,2110
-12 Oct to 23 Oct 2022 ,Great Britain,Feel lonely often or always,16 years and over,Any,8.9,7.2,10.5,2170
-26 Oct to 6 Nov 2022,Great Britain,Feel lonely often or always,16 years and over,Any,7.4,5.8,9.0,2060
-8 Nov to 20 Nov 2022,Great Britain,Feel lonely often or always,16 years and over,Any,7.5,5.9,9.2,2130
-22 Nov to 4 Dec 2022,Great Britain,Feel lonely often or always,16 years and over,Any,7.5,6.2,8.7,2520
-7 Dec to 18 Dec 2022,Great Britain,Feel lonely often or always,16 years and over,Any,6.1,4.9,7.3,2240
-21 Dec 2022 to 8 Jan 2023,Great Britain,Feel lonely often or always,16 years and over,Any,8.0,6.6,9.5,2740
-11 Jan to 22 Jan 2023,Great Britain,Feel lonely often or always,16 years and over,Any,6.4,5.3,7.5,2830
-25 Jan to 5 Feb 2023,Great Britain,Feel lonely often or always,16 years and over,Any,7.2,6.0,8.5,2740
-8 Feb to 19 Feb 2023,Great Britain,Feel lonely often or always,16 years and over,Any,7.3,6.0,8.5,2620
-22 Feb to 5 Mar 2023,Great Britain,Feel lonely often or always,16 years and over,Any,7.3,6.1,8.6,2790
-8 Mar to 19 Mar 2023,Great Britain,Feel lonely often or always,16 years and over,Any,6.5,5.4,7.7,2680
-22 Mar to 2 Apr 2023,Great Britain,Feel lonely often or always,16 years and over,Any,7.8,6.5,9.0,2660
-5 Apr to 16 Apr 2023,Great Britain,Feel lonely often or always,16 years and over,Any,7.0,5.6,8.4,2050
-19 Apr to 1 May 2023,Great Britain,Feel lonely often or always,16 years and over,Any,7.2,5.6,8.9,2020
-4 May to 14 May 2023,Great Britain,Feel lonely often or always,16 years and over,Any,6.4,4.9,7.9,2050
-17 May to 29 May 2023,Great Britain,Feel lonely often or always,16 years and over,Any,7.8,6.1,9.4,1980
-31 May to 11 June 2023,Great Britain,Feel lonely often or always,16 years and over,Any,5.7,4.4,7.1,2030
-14 June to 25 June 2023,Great Britain,Feel lonely often or always,16 years and over,Any,7.8,6.1,9.4,2150
-28 June to 9 July 2023,Great Britain,Feel lonely often or always,16 years and over,Any,8.0,6.2,9.7,2160
-12 July to 23 July 2023,Great Britain,Feel lonely often or always,16 years and over,Any,7.0,5.3,8.7,2480
-23 Aug to 3 Sept 2023,Great Britain,Feel lonely often or always,16 years and over,Any,7.5,6.0,9.0,2670
-6 Sept to 17 Sept 2023,Great Britain,Feel lonely often or always,16 years and over,Any,7.0,5.4,8.6,2380
-20 Sept to 1 Oct 2023,Great Britain,Feel lonely often or always,16 years and over,Any,7.7,5.9,9.4,2360
-4 Oct to 15 Oct 2023,Great Britain,Feel lonely often or always,16 years and over,Any,6.4,4.9,7.8,2130
-18 Oct to 29 Oct 2023,Great Britain,Feel lonely often or always,16 years and over,Any,6.8,5.3,8.3,2410
-18 Oct to 29 Oct 2023,Great Britain,Feel lonely often or always,Aged 25 to 34,Any,10.0,15.0,5.1,160
-18 Oct to 29 Oct 2023,Great Britain,Feel lonely often or always,Aged 35 to 49,Any,7.2,10.5,4.0,270
-18 Oct to 29 Oct 2023,Great Britain,Feel lonely often or always,Aged 50 to 64,Any,6.4,9.0,3.9,600
-18 Oct to 29 Oct 2023,Great Britain,Feel lonely often or always,Aged 65 to 74,Any,3.5,5.2,1.7,630
-18 Oct to 29 Oct 2023,Great Britain,Feel lonely often or always,Aged 75 and over,Any,5.1,7.3,2.9,670
-18 Oct to 29 Oct 2023,Great Britain,Feel lonely often or always,16 years and over,Male,6.3,8.6,4.0,1150
-18 Oct to 29 Oct 2023,Great Britain,Finding it quite or very difficult,16 years and over,Female,7.2,9.2,5.3,1260
+2022-03-30 to 2022-04-10,Great Britain,Feel lonely often or always,16 years and over,Any,8.0,6.5,9.4,2480
+2022-04-13 to 2022-04-24,Great Britain,Feel lonely often or always,16 years and over,Any,5.4,4.1,6.8,2310
+2022-04-27 to 2022-05-08,Great Britain,Feel lonely often or always,16 years and over,Any,6.4,5.1,7.8,2310
+2022-05-11 to 2022-05-22,Great Britain,Feel lonely often or always,16 years and over,Any,7.7,6.2,9.2,2250
+2022-05-25 to 2022-06-05,Great Britain,Feel lonely often or always,16 years and over,Any,7.2,5.6,8.8,2250
+2022-06-08 to 2022-06-19,Great Britain,Feel lonely often or always,16 years and over,Any,7.1,5.5,8.7,2200
+2022-06-22 to 2022-07-03,Great Britain,Feel lonely often or always,16 years and over,Any,5.8,4.4,7.2,2300
+2022-07-06 to 2022-07-17,Great Britain,Feel lonely often or always,16 years and over,Any,6.2,4.9,7.6,2210
+2022-07-20 to 2022-07-31,Great Britain,Feel lonely often or always,16 years and over,Any,8.5,6.9,10.2,2470
+2022-08-03 to 2022-08-14,Great Britain,Feel lonely often or always,16 years and over,Any,8.5,6.8,10.2,2190
+2022-08-17 to 2022-08-29,Great Britain,Feel lonely often or always,16 years and over,Any,7.6,6.0,9.2,2070
+2022-08-31 to 2022-09-11,Great Britain,Feel lonely often or always,16 years and over,Any,6.4,4.9,7.9,2070
+2022-09-14 to 2022-09-25,Great Britain,Feel lonely often or always,16 years and over,Any,7.4,5.8,9.0,2140
+2022-09-29 to 2022-10-09,Great Britain,Feel lonely often or always,16 years and over,Any,6.8,5.3,8.4,2110
+2022-10-12 to 2022-10-23,Great Britain,Feel lonely often or always,16 years and over,Any,8.9,7.2,10.5,2170
+2022-10-26 to 2022-11-06,Great Britain,Feel lonely often or always,16 years and over,Any,7.4,5.8,9.0,2060
+2022-11-08 to 2022-11-20,Great Britain,Feel lonely often or always,16 years and over,Any,7.5,5.9,9.2,2130
+2022-11-22 to 2022-12-04,Great Britain,Feel lonely often or always,16 years and over,Any,7.5,6.2,8.7,2520
+2022-12-07 to 2022-12-18,Great Britain,Feel lonely often or always,16 years and over,Any,6.1,4.9,7.3,2240
+2022-12-21 to 2023-01-08,Great Britain,Feel lonely often or always,16 years and over,Any,8.0,6.6,9.5,2740
+2023-01-11 to 2023-01-22,Great Britain,Feel lonely often or always,16 years and over,Any,6.4,5.3,7.5,2830
+2023-01-25 to 2023-02-05,Great Britain,Feel lonely often or always,16 years and over,Any,7.2,6.0,8.5,2740
+2023-02-08 to 2023-02-19,Great Britain,Feel lonely often or always,16 years and over,Any,7.3,6.0,8.5,2620
+2023-02-22 to 2023-03-05,Great Britain,Feel lonely often or always,16 years and over,Any,7.3,6.1,8.6,2790
+2023-03-08 to 2023-03-19,Great Britain,Feel lonely often or always,16 years and over,Any,6.5,5.4,7.7,2680
+2023-03-22 to 2023-04-02,Great Britain,Feel lonely often or always,16 years and over,Any,7.8,6.5,9.0,2660
+2023-04-05 to 2023-04-16,Great Britain,Feel lonely often or always,16 years and over,Any,7.0,5.6,8.4,2050
+2023-04-19 to 2023-05-01,Great Britain,Feel lonely often or always,16 years and over,Any,7.2,5.6,8.9,2020
+2023-05-04 to 2023-05-14,Great Britain,Feel lonely often or always,16 years and over,Any,6.4,4.9,7.9,2050
+2023-05-17 to 2023-05-29,Great Britain,Feel lonely often or always,16 years and over,Any,7.8,6.1,9.4,1980
+2023-05-31 to 2023-06-11,Great Britain,Feel lonely often or always,16 years and over,Any,5.7,4.4,7.1,2030
+2023-06-14 to 2023-06-25,Great Britain,Feel lonely often or always,16 years and over,Any,7.8,6.1,9.4,2150
+2023-06-28 to 2023-07-09,Great Britain,Feel lonely often or always,16 years and over,Any,8.0,6.2,9.7,2160
+2023-07-12 to 2023-07-23,Great Britain,Feel lonely often or always,16 years and over,Any,7.0,5.3,8.7,2480
+2023-08-23 to 2023-09-03,Great Britain,Feel lonely often or always,16 years and over,Any,7.5,6.0,9.0,2670
+2023-09-06 to 2023-09-17,Great Britain,Feel lonely often or always,16 years and over,Any,7.0,5.4,8.6,2380
+2023-09-20 to 2023-10-01,Great Britain,Feel lonely often or always,16 years and over,Any,7.7,5.9,9.4,2360
+2023-10-04 to 2023-10-15,Great Britain,Feel lonely often or always,16 years and over,Any,6.4,4.9,7.8,2130
+2023-10-18 to 2023-10-29,Great Britain,Feel lonely often or always,16 years and over,Any,6.8,5.3,8.3,2410
+2023-10-18 to 2023-10-29,Great Britain,Feel lonely often or always,Aged 25 to 34,Any,10.0,15.0,5.1,160
+2023-10-18 to 2023-10-29,Great Britain,Feel lonely often or always,Aged 35 to 49,Any,7.2,10.5,4.0,270
+2023-10-18 to 2023-10-29,Great Britain,Feel lonely often or always,Aged 50 to 64,Any,6.4,9.0,3.9,600
+2023-10-18 to 2023-10-29,Great Britain,Feel lonely often or always,Aged 65 to 74,Any,3.5,5.2,1.7,630
+2023-10-18 to 2023-10-29,Great Britain,Feel lonely often or always,Aged 75 and over,Any,5.1,7.3,2.9,670
+2023-10-18 to 2023-10-29,Great Britain,Feel lonely often or always,16 years and over,Male,6.3,8.6,4.0,1150
+2023-10-18 to 2023-10-29,Great Britain,Feel lonely often or always,16 years and over,Female,7.2,9.2,5.3,1260
