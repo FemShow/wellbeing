@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
           - Keywords: 
-		-- comfort
 		-- comfortably
-		-- female
 		-- living
-		-- male
 		-- belong
+		-- comfort
+		-- male
+		-- female
           - Contact Point: None
           - Identifier: People who agree or strongly agree that they feel like they belong to their neighbourhood
           - Comment: Contains percentage estimates for adults in Great Britain, from 22 June 2022 to 3 September 2023,and the percentage estimates for the latest period, 23 August to 3 September 2023, broken down by age and sex.
@@ -55,29 +55,29 @@ situation.csv#code-list       Situation       Situation
         - Number of Rows: 32
         - Number of Duplicates: 0
         - First 10 Rows: 
-           refPeriod       refArea                 Situation               Age Sex  Value  UCL  LCL  sampleSize
-   11-to-22-jan-2023 great-britain   agree-or-strongly-agree 16-years-and-over any   54.8 51.6 57.9      1490.0
-   11-to-22-jan-2023 great-britain            strongly-agree 16-years-and-over any    9.6  NaN  NaN         NaN
-   11-to-22-jan-2023 great-britain                     agree 16-years-and-over any   45.1  NaN  NaN         NaN
-   11-to-22-jan-2023 great-britain neither-agree-or-disagree 16-years-and-over any   35.2  NaN  NaN         NaN
-   11-to-22-jan-2023 great-britain                  disagree 16-years-and-over any    8.2  NaN  NaN         NaN
-   11-to-22-jan-2023 great-britain         strongly-disagree 16-years-and-over any    1.8  NaN  NaN         NaN
-22-mar-to-2-apr-2023 great-britain   agree-or-strongly-agree 16-years-and-over any   53.5 51.1 56.0      2660.0
-22-mar-to-2-apr-2023 great-britain            strongly-agree 16-years-and-over any   11.4  NaN  NaN         NaN
-22-mar-to-2-apr-2023 great-britain                     agree 16-years-and-over any   42.1  NaN  NaN         NaN
-22-mar-to-2-apr-2023 great-britain neither-agree-or-disagree 16-years-and-over any   35.5  NaN  NaN         NaN
+               refPeriod       refArea                 Situation               Age Sex  Value  UCL  LCL  sampleSize
+2022-12-21-to-2023-01-08 great-britain   agree-or-strongly-agree 16-years-and-over any   54.8 51.6 57.9      1490.0
+2022-12-21-to-2023-01-08 great-britain            strongly-agree 16-years-and-over any    9.6  NaN  NaN         NaN
+2022-12-21-to-2023-01-08 great-britain                     agree 16-years-and-over any   45.1  NaN  NaN         NaN
+2022-12-21-to-2023-01-08 great-britain neither-agree-or-disagree 16-years-and-over any   35.2  NaN  NaN         NaN
+2022-12-21-to-2023-01-08 great-britain                  disagree 16-years-and-over any    8.2  NaN  NaN         NaN
+2022-12-21-to-2023-01-08 great-britain         strongly-disagree 16-years-and-over any    1.8  NaN  NaN         NaN
+2023-03-22-to-2023-04-02 great-britain   agree-or-strongly-agree 16-years-and-over any   53.5 51.1 56.0      2660.0
+2023-03-22-to-2023-04-02 great-britain            strongly-agree 16-years-and-over any   11.4  NaN  NaN         NaN
+2023-03-22-to-2023-04-02 great-britain                     agree 16-years-and-over any   42.1  NaN  NaN         NaN
+2023-03-22-to-2023-04-02 great-britain neither-agree-or-disagree 16-years-and-over any   35.5  NaN  NaN         NaN
         - Last 10 Rows: 
-            refPeriod       refArea               Situation               Age    Sex  Value  UCL  LCL  sampleSize
-23-aug-to-3-sept-2023 great-britain                disagree 16-years-and-over    any   10.0  NaN  NaN         NaN
-23-aug-to-3-sept-2023 great-britain       strongly-disagree 16-years-and-over    any    3.0  NaN  NaN         NaN
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree     aged-16-to-24    any   49.4 60.0 38.7       100.0
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree     aged-25-to-34    any   46.3 54.5 38.1       190.0
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree     aged-35-to-49    any   52.7 59.3 46.1       310.0
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree     aged-50-to-64    any   52.5 58.0 46.9       620.0
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree     aged-65-to-74    any   63.0 68.1 57.8       750.0
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree  aged-75-and-over    any   73.2 77.8 68.6       690.0
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree 16-years-and-over   male   54.8 50.4 59.3      1280.0
-23-aug-to-3-sept-2023 great-britain agree-or-strongly-agree 16-years-and-over female   54.3 50.5 58.1      1390.0
+               refPeriod       refArea               Situation               Age    Sex  Value  UCL  LCL  sampleSize
+2023-08-23-to-2023-09-03 great-britain                disagree 16-years-and-over    any   10.0  NaN  NaN         NaN
+2023-08-23-to-2023-09-03 great-britain       strongly-disagree 16-years-and-over    any    3.0  NaN  NaN         NaN
+2023-08-23-to-2023-09-03 great-britain agree-or-strongly-agree     aged-16-to-24    any   49.4 60.0 38.7       100.0
+2023-08-23-to-2023-09-03 great-britain agree-or-strongly-agree     aged-25-to-34    any   46.3 54.5 38.1       190.0
+2023-08-23-to-2023-09-03 great-britain agree-or-strongly-agree     aged-35-to-49    any   52.7 59.3 46.1       310.0
+2023-08-23-to-2023-09-03 great-britain agree-or-strongly-agree     aged-50-to-64    any   52.5 58.0 46.9       620.0
+2023-08-23-to-2023-09-03 great-britain agree-or-strongly-agree     aged-65-to-74    any   63.0 68.1 57.8       750.0
+2023-08-23-to-2023-09-03 great-britain agree-or-strongly-agree  aged-75-and-over    any   73.2 77.8 68.6       690.0
+2023-08-23-to-2023-09-03 great-britain agree-or-strongly-agree 16-years-and-over   male   54.8 50.4 59.3      1280.0
+2023-08-23-to-2023-09-03 great-britain agree-or-strongly-agree 16-years-and-over female   54.3 50.5 58.1      1390.0
         
 
 - The data cube has the following value counts:
