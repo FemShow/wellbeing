@@ -1,33 +1,33 @@
-time_period_type,time_period,time_period_label,area_code,area_label,age_code,age,situation,sex_code,sex_label,observation,lcl_95,ucl_95,sample_size
-2022-12-21,18,P18D,K03000001,Great Britain,16 years and over,16 years and over,Agree or strongly agree,Any,Any,54.8,57.9,51.6,1490.0
-2022-12-21,18,P18D,K03000001,Great Britain,16 years and over,16 years and over,Strongly agree,Any,Any,9.6,,,
-2022-12-21,18,P18D,K03000001,Great Britain,16 years and over,16 years and over,Agree,Any,Any,45.1,,,
-2022-12-21,18,P18D,K03000001,Great Britain,16 years and over,16 years and over,Neither agree or disagree,Any,Any,35.2,,,
-2022-12-21,18,P18D,K03000001,Great Britain,16 years and over,16 years and over,Disagree,Any,Any,8.2,,,
-2022-12-21,18,P18D,K03000001,Great Britain,16 years and over,16 years and over,Strongly disagree,Any,Any,1.8,,,
-2023-03-22,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Agree or strongly agree,Any,Any,53.5,56.0,51.1,2660.0
-2023-03-22,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Strongly agree,Any,Any,11.4,,,
-2023-03-22,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Agree,Any,Any,42.1,,,
-2023-03-22,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Neither agree or disagree,Any,Any,35.5,,,
-2023-03-22,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Disagree,Any,Any,8.5,,,
-2023-03-22,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Strongly disagree,Any,Any,2.4,,,
-2023-06-28,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Agree or strongly agree,Any,Any,53.6,56.8,50.5,2150.0
-2023-06-28,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Strongly agree,Any,Any,13.7,,,
-2023-06-28,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Agree,Any,Any,40.0,,,
-2023-06-28,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Neither agree or disagree,Any,Any,32.5,,,
-2023-06-28,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Disagree,Any,Any,9.4,,,
-2023-06-28,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Strongly disagree,Any,Any,4.5,,,
-2023-08-23,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Agree or strongly agree,Any,Any,54.6,57.4,51.7,2670.0
-2023-08-23,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Strongly agree,Any,Any,11.7,,,
-2023-08-23,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Agree,Any,Any,42.8,,,
-2023-08-23,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Neither agree or disagree,Any,Any,32.4,,,
-2023-08-23,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Disagree,Any,Any,10.0,,,
-2023-08-23,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Strongly disagree,Any,Any,3.0,,,
-2023-08-23,11,P11D,K03000001,Great Britain,Aged 16 to 24,Aged 16 to 24,Agree or strongly agree,Any,Any,49.4,38.7,60,100
-2023-08-23,11,P11D,K03000001,Great Britain,Aged 25 to 34,Aged 25 to 34,Agree or strongly agree,Any,Any,46.3,38.1,54.5,190
-2023-08-23,11,P11D,K03000001,Great Britain,Aged 35 to 49,Aged 35 to 49,Agree or strongly agree,Any,Any,52.7,46.1,59.3,310
-2023-08-23,11,P11D,K03000001,Great Britain,Aged 50 to 64,Aged 50 to 64,Agree or strongly agree,Any,Any,52.5,46.9,58,620
-2023-08-23,11,P11D,K03000001,Great Britain,Aged 65 to 74,Aged 65 to 74,Agree or strongly agree,Any,Any,63.0,57.8,68.1,750
-2023-08-23,11,P11D,K03000001,Great Britain,Aged 75 and over,Aged 75 and over,Agree or strongly agree,Any,Any,73.2,68.6,77.8,690
-2023-08-23,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Agree or strongly agree,Male,Male,54.8,50.4,59.3,1280
-2023-08-23,11,P11D,K03000001,Great Britain,16 years and over,16 years and over,Agree or strongly agree,Female,Female,54.3,50.5,58.1,1390
+time_period_type,time_period,time_period_label,area_code,area_label,age_code,age_label,measure,sex_code,sex_label,observation,lcl_95,ucl_95,sample_size
+gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,Y_GE16,16 years and over,Agree or strongly agree,x,n_a,54.8,57.9,51.6,1490.0
+gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,Y_GE16,16 years and over,Strongly agree,x,n_a,9.6,,,
+gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,Y_GE16,16 years and over,Agree,x,n_a,45.1,,,
+gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,Y_GE16,16 years and over,Neither agree or disagree,x,n_a,35.2,,,
+gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,Y_GE16,16 years and over,Disagree,x,n_a,8.2,,,
+gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,Y_GE16,16 years and over,Strongly disagree,x,n_a,1.8,,,
+gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,Y_GE16,16 years and over,Agree or strongly agree,x,n_a,53.5,56.0,51.1,2660.0
+gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,Y_GE16,16 years and over,Strongly agree,x,n_a,11.4,,,
+gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,Y_GE16,16 years and over,Agree,x,n_a,42.1,,,
+gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,Y_GE16,16 years and over,Neither agree or disagree,x,n_a,35.5,,,
+gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,Y_GE16,16 years and over,Disagree,x,n_a,8.5,,,
+gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,Y_GE16,16 years and over,Strongly disagree,x,n_a,2.4,,,
+gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,Y_GE16,16 years and over,Agree or strongly agree,x,n_a,53.6,56.8,50.5,2150.0
+gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,Y_GE16,16 years and over,Strongly agree,x,n_a,13.7,,,
+gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,Y_GE16,16 years and over,Agree,x,n_a,40.0,,,
+gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,Y_GE16,16 years and over,Neither agree or disagree,x,n_a,32.5,,,
+gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,Y_GE16,16 years and over,Disagree,x,n_a,9.4,,,
+gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,Y_GE16,16 years and over,Strongly disagree,x,n_a,4.5,,,
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,Agree or strongly agree,x,n_a,54.6,57.4,51.7,2670.0
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,Strongly agree,x,n_a,11.7,,,
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,Agree,x,n_a,42.8,,,
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,Neither agree or disagree,x,n_a,32.4,,,
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,Disagree,x,n_a,10.0,,,
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,Strongly disagree,x,n_a,3.0,,,
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,16 to 24,16 to 24,Agree or strongly agree,x,n_a,49.4,38.7,60.0,100.0
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,25 to 34,25 to 34,Agree or strongly agree,x,n_a,46.3,38.1,54.5,190.0
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,35 to 49,35 to 49,Agree or strongly agree,x,n_a,52.7,46.1,59.3,310.0
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,50 to 64,50 to 64,Agree or strongly agree,x,n_a,52.5,46.9,58.0,620.0
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_65to74,65 to 74,Agree or strongly agree,x,n_a,63.0,57.8,68.1,750.0
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE75,75 and over,Agree or strongly agree,x,n_a,73.2,68.6,77.8,690.0
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,Agree or strongly agree,m,Male,54.8,59.3,50.4,1280.0
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,Agree or strongly agree,m,Female,54.3,58.1,50.5,1390.0
