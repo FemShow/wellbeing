@@ -1,0 +1,89 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "People who agree or strongly agree that they feel like they belong to their neighbourhood",
+    "summary": "Contains percentage estimates for adults in Great Britain, from 22 June 2022 to 3 September 2023, and the percentage estimates for the latest period, 23 August to 3 September 2023, broken down by age and sex.",
+    "description": "Adults aged 16 years and over were asked to rate to what extent do they agree with the statement ‘I feel like I belong to this neighbourhood' on a 5-point scale from 'strongly agree' to 'strongly disagree'",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "public_contact_point_uri": "mailto:Media.Relations@ons.gov.uk",
+    "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing",
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "dataset_issued": "2023-11-10T00:00:00Z",
+    "dataset_modified": "2023-11-10T00:00:00Z",
+    "keywords": [
+        "belong",
+        "living",
+        "comfortably",
+        "male",
+        "female",
+        "comfort"
+    ],
+    "columns": {
+        "time_period_type": {
+            "type": "dimension",
+            "label": "time_period_type"
+        },
+        "time_period": { "type": "dimension",
+        "from_existing": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod",
+        "label": "Gregorian Time Interval",
+        "cell_uri_template": "http://reference.data.gov.uk/id/gregorian-interval/{+time_period}"
+        },
+        "time_period_label": {
+            "type": "dimension",
+            "label": "time_period_label"
+        },
+        "area_code": {
+            "type": "dimension",
+            "label": "area_code"
+        },
+        "response_code": {
+            "type": "dimension",
+            "label": "response_code"
+        },
+        "response": {
+            "type": "dimension",
+            "label": "response"
+        },
+        "age_code": {
+            "type": "dimension",
+            "label": "age_code"
+        },
+        "age_label": {
+            "type": "dimension",
+            "label": "age_label"
+        },
+        "sex_code": {
+            "type": "dimension",
+            "label": "sex_code"
+        },
+        "sex_label": {
+            "type": "dimension",
+            "label": "sex_label"
+        },
+        "observation": {
+            "type": "observations"
+        },
+        "unit": {
+            "type": "units",
+            "values": true
+        },
+        "feeling_of_belonging": {
+            "type": "measures"
+        },
+        "sample_size": {
+            "type": "attribute",
+            "data_type": "integer",
+            "label": "sample_size"
+        },
+        "lcl_95": {
+            "type": "attribute",
+            "data_type": "decimal",
+            "description": "lower confidence interval"
+        },
+        "ucl_95": {
+            "type": "attribute",
+            "data_type": "decimal",
+            "description": "upper confidence interval"
+        }
+    }
+}

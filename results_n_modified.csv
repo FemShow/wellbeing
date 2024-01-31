@@ -1,33 +1,33 @@
-time_period_type,time_period,time_period_label,area_code,area_label,age_code,age_label,sex_code,sex_label,observation,unit,measure_code,measure,sample_size,lcl_95,ucl_95
-gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,54.8,PERCENT,0,Agree or strongly agree,1490.0,57.9,51.6
-gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,9.6,PERCENT,1,Strongly agree,,,
-gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,45.1,PERCENT,2,Agree,,,
-gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,35.2,PERCENT,3,Neither agree or disagree,,,
-gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,8.2,PERCENT,4,Disagree,,,
-gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,1.8,PERCENT,5,Strongly disagree,,,
-gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,53.5,PERCENT,0,Agree or strongly agree,2660.0,56.0,51.1
-gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,11.4,PERCENT,1,Strongly agree,,,
-gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,42.1,PERCENT,2,Agree,,,
-gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,35.5,PERCENT,3,Neither agree or disagree,,,
-gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,8.5,PERCENT,4,Disagree,,,
-gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,2.4,PERCENT,5,Strongly disagree,,,
-gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,53.6,PERCENT,0,Agree or strongly agree,2150.0,56.8,50.5
-gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,13.7,PERCENT,1,Strongly agree,,,
-gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,40.0,PERCENT,2,Agree,,,
-gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,32.5,PERCENT,3,Neither agree or disagree,,,
-gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,9.4,PERCENT,4,Disagree,,,
-gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,4.5,PERCENT,5,Strongly disagree,,,
-gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,54.6,PERCENT,0,Agree or strongly agree,2670.0,57.4,51.7
-gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,11.7,PERCENT,1,Strongly agree,,,
-gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,42.8,PERCENT,2,Agree,,,
-gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,32.4,PERCENT,3,Neither agree or disagree,,,
-gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,10.0,PERCENT,4,Disagree,,,
-gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,_T,Total,3.0,PERCENT,5,Strongly disagree,,,
-gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_16to24,Aged 16 to 24,_T,Total,49.4,PERCENT,0,Agree or strongly agree,100.0,38.7,60.0
-gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_25to34,Aged 25 to 34,_T,Total,46.3,PERCENT,0,Agree or strongly agree,190.0,38.1,54.5
-gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_35to49,Aged 35 to 49,_T,Total,52.7,PERCENT,0,Agree or strongly agree,310.0,46.1,59.3
-gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_50to64,Aged 50 to 64,_T,Total,52.5,PERCENT,0,Agree or strongly agree,620.0,46.9,58.0
-gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_65to74,Aged 65 to 74,_T,Total,63.0,PERCENT,0,Agree or strongly agree,750.0,57.8,68.1
-gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE75,Aged 75 and over,_T,Total,73.2,PERCENT,0,Agree or strongly agree,690.0,68.6,77.8
-gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,M,Male,54.8,PERCENT,0,Agree or strongly agree,1280.0,59.3,50.4
-gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,Y_GE16,16 years and over,F,Female,54.3,PERCENT,0,Agree or strongly agree,1390.0,58.1,50.5
+time_period_type,time_period,time_period_label,area_code,area_label,response_code,response,age_code,age_label,sex_code,sex_label,observation,unit,feeling_of_belonging,sample_size,lcl_95,ucl_95
+gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,0,Agree or strongly agree,Y_GE16,16 years and over,_T,Total,54.8,PERCENT,Agree or strongly agree,1490.0,57.9,51.6
+gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,1,Strongly agree,Y_GE16,16 years and over,_T,Total,9.6,PERCENT,Strongly agree,,,
+gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,2,Agree,Y_GE16,16 years and over,_T,Total,45.1,PERCENT,Agree,,,
+gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,3,Neither agree or disagree,Y_GE16,16 years and over,_T,Total,35.2,PERCENT,Neither agree or disagree,,,
+gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,4,Disagree,Y_GE16,16 years and over,_T,Total,8.2,PERCENT,Disagree,,,
+gregorian-interval,2022-12-21P18D,21 December 2022 to 08 January 2023,K03000001,Great Britain,5,Strongly disagree,Y_GE16,16 years and over,_T,Total,1.8,PERCENT,Strongly disagree,,,
+gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,0,Agree or strongly agree,Y_GE16,16 years and over,_T,Total,53.5,PERCENT,Agree or strongly agree,2660.0,56.0,51.1
+gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,1,Strongly agree,Y_GE16,16 years and over,_T,Total,11.4,PERCENT,Strongly agree,,,
+gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,2,Agree,Y_GE16,16 years and over,_T,Total,42.1,PERCENT,Agree,,,
+gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,3,Neither agree or disagree,Y_GE16,16 years and over,_T,Total,35.5,PERCENT,Neither agree or disagree,,,
+gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,4,Disagree,Y_GE16,16 years and over,_T,Total,8.5,PERCENT,Disagree,,,
+gregorian-interval,2023-03-22P11D,22 March 2023 to 02 April 2023,K03000001,Great Britain,5,Strongly disagree,Y_GE16,16 years and over,_T,Total,2.4,PERCENT,Strongly disagree,,,
+gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,0,Agree or strongly agree,Y_GE16,16 years and over,_T,Total,53.6,PERCENT,Agree or strongly agree,2150.0,56.8,50.5
+gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,1,Strongly agree,Y_GE16,16 years and over,_T,Total,13.7,PERCENT,Strongly agree,,,
+gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,2,Agree,Y_GE16,16 years and over,_T,Total,40.0,PERCENT,Agree,,,
+gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,3,Neither agree or disagree,Y_GE16,16 years and over,_T,Total,32.5,PERCENT,Neither agree or disagree,,,
+gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,4,Disagree,Y_GE16,16 years and over,_T,Total,9.4,PERCENT,Disagree,,,
+gregorian-interval,2023-06-28P11D,28 June 2023 to 09 July 2023,K03000001,Great Britain,5,Strongly disagree,Y_GE16,16 years and over,_T,Total,4.5,PERCENT,Strongly disagree,,,
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,0,Agree or strongly agree,Y_GE16,16 years and over,_T,Total,54.6,PERCENT,Agree or strongly agree,2670.0,57.4,51.7
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,1,Strongly agree,Y_GE16,16 years and over,_T,Total,11.7,PERCENT,Strongly agree,,,
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,2,Agree,Y_GE16,16 years and over,_T,Total,42.8,PERCENT,Agree,,,
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,3,Neither agree or disagree,Y_GE16,16 years and over,_T,Total,32.4,PERCENT,Neither agree or disagree,,,
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,4,Disagree,Y_GE16,16 years and over,_T,Total,10.0,PERCENT,Disagree,,,
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,5,Strongly disagree,Y_GE16,16 years and over,_T,Total,3.0,PERCENT,Strongly disagree,,,
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,0,Agree or strongly agree,Y_16to24,Aged 16 to 24,_T,Total,49.4,PERCENT,Agree or strongly agree,100.0,38.7,60.0
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,0,Agree or strongly agree,Y_25to34,Aged 25 to 34,_T,Total,46.3,PERCENT,Agree or strongly agree,190.0,38.1,54.5
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,0,Agree or strongly agree,Y_35to49,Aged 35 to 49,_T,Total,52.7,PERCENT,Agree or strongly agree,310.0,46.1,59.3
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,0,Agree or strongly agree,Y_50to64,Aged 50 to 64,_T,Total,52.5,PERCENT,Agree or strongly agree,620.0,46.9,58.0
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,0,Agree or strongly agree,Y_65to74,Aged 65 to 74,_T,Total,63.0,PERCENT,Agree or strongly agree,750.0,57.8,68.1
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,0,Agree or strongly agree,Y_GE75,Aged 75 and over,_T,Total,73.2,PERCENT,Agree or strongly agree,690.0,68.6,77.8
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,0,Agree or strongly agree,Y_GE16,16 years and over,M,Male,54.8,PERCENT,Agree or strongly agree,1280.0,59.3,50.4
+gregorian-interval,2023-08-23P11D,23 August 2023 to 03 September 2023,K03000001,Great Britain,0,Agree or strongly agree,Y_GE16,16 years and over,F,Female,54.3,PERCENT,Agree or strongly agree,1390.0,58.1,50.5
