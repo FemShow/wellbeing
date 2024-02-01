@@ -1,0 +1,106 @@
+
+- This file is a data cube.
+
+
+        - The data cube has the following catalog metadata:
+          - Title: People who agree or strongly agree that they feel like they belong to their neighbourhood
+          - Label: People who agree or strongly agree that they feel like they belong to their neighbourhood
+          - Issued: 2023-11-10T00:00:00
+          - Modified: 2023-11-10T00:00:00
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
+		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
+          - Keywords: 
+		-- belong
+		-- comfort
+		-- female
+		-- comfortably
+		-- living
+		-- male
+          - Contact Point: None
+          - Identifier: People who agree or strongly agree that they feel like they belong to their neighbourhood
+          - Comment: Contains percentage estimates for adults in Great Britain, from 22 June 2022 to 3 September 2023, and the percentage estimates for the latest period, 23 August to 3 September 2023, broken down by age and sex.
+          - Description: Adults aged 16 years and over were asked to rate to what extent do they agree with the statement ‘I feel like I belong to this neighbourhood' on a 5-point scale from 'strongly agree' to 'strongly disagree'
+        
+
+ - The data cube has the following column component information: 
+    - Dataset Label: People who agree or strongly agree that they feel like they belong to their neighbourhood
+    - Columns: 
+                   Title         Type  Required                                                                                                                    Property URL Observations Column Titles
+        time_period_type    Dimension      True        people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/time_period_type                           
+             time_period    Dimension      True people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/gregorian-time-interval                           
+       time_period_label    Dimension      True       people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/time_period_label                           
+               area_code    Dimension      True               people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/area_code                           
+              area_label    Dimension      True              people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/area_label                           
+           response_code    Dimension      True           people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/response_code                           
+                response    Dimension      True                people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/response                           
+                age_code    Dimension      True                people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/age_code                           
+               age_label    Dimension      True               people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/age_label                           
+                sex_code    Dimension      True                people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/sex_code                           
+               sex_label    Dimension      True               people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#dimension/sex_label                           
+             observation Observations      True   people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#measure/{+feeling_of_belonging}                           
+                    unit        Units      True                                                                     http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure                           
+    feeling_of_belonging     Measures      True                                                                                    http://purl.org/linked-data/cube#measureType                           
+             sample_size    Attribute     False             people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#attribute/sample_size                           
+                  lcl_95    Attribute     False                  people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#attribute/lcl_95                           
+                  ucl_95    Attribute     False                  people-who-agree-or-strongly-agree-that-they-feel-like-they-belong-to-their-neighbourhood.csv#attribute/ucl_95                           
+    - Columns where suppress output is true: None
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 11
+        - Code Lists:
+                            Code List         Code List Label   Columns Used In
+               age_code.csv#code-list                age_code          age_code
+              age_label.csv#code-list               age_label         age_label
+              area_code.csv#code-list               area_code         area_code
+             area_label.csv#code-list              area_label        area_label
+gregorian-time-interval.csv#code-list Gregorian Time Interval       time_period
+               response.csv#code-list                response          response
+          response_code.csv#code-list           response_code     response_code
+               sex_code.csv#code-list                sex_code          sex_code
+              sex_label.csv#code-list               sex_label         sex_label
+      time_period_label.csv#code-list       time_period_label time_period_label
+       time_period_type.csv#code-list        time_period_type  time_period_type
+
+- The data cube has the following dataset information:
+        - Number of Observations: 32
+        - Number of Duplicates: 0
+        - First 10 Observations: 
+  time_period_type    time_period                   time_period_label area_code    area_label  response_code                  response age_code         age_label sex_code sex_label  observation    unit      feeling_of_belonging  sample_size  lcl_95  ucl_95
+gregorian-interval 2022-12-21p18d 21-december-2022-to-08-january-2023 k03000001 great-britain              0   agree-or-strongly-agree   y_ge16 16-years-and-over       _t     total         54.8 percent   agree-or-strongly-agree       1490.0    57.9    51.6
+gregorian-interval 2022-12-21p18d 21-december-2022-to-08-january-2023 k03000001 great-britain              1            strongly-agree   y_ge16 16-years-and-over       _t     total          9.6 percent            strongly-agree          NaN     NaN     NaN
+gregorian-interval 2022-12-21p18d 21-december-2022-to-08-january-2023 k03000001 great-britain              2                     agree   y_ge16 16-years-and-over       _t     total         45.1 percent                     agree          NaN     NaN     NaN
+gregorian-interval 2022-12-21p18d 21-december-2022-to-08-january-2023 k03000001 great-britain              3 neither-agree-or-disagree   y_ge16 16-years-and-over       _t     total         35.2 percent neither-agree-or-disagree          NaN     NaN     NaN
+gregorian-interval 2022-12-21p18d 21-december-2022-to-08-january-2023 k03000001 great-britain              4                  disagree   y_ge16 16-years-and-over       _t     total          8.2 percent                  disagree          NaN     NaN     NaN
+gregorian-interval 2022-12-21p18d 21-december-2022-to-08-january-2023 k03000001 great-britain              5         strongly-disagree   y_ge16 16-years-and-over       _t     total          1.8 percent         strongly-disagree          NaN     NaN     NaN
+gregorian-interval 2023-03-22p11d      22-march-2023-to-02-april-2023 k03000001 great-britain              0   agree-or-strongly-agree   y_ge16 16-years-and-over       _t     total         53.5 percent   agree-or-strongly-agree       2660.0    56.0    51.1
+gregorian-interval 2023-03-22p11d      22-march-2023-to-02-april-2023 k03000001 great-britain              1            strongly-agree   y_ge16 16-years-and-over       _t     total         11.4 percent            strongly-agree          NaN     NaN     NaN
+gregorian-interval 2023-03-22p11d      22-march-2023-to-02-april-2023 k03000001 great-britain              2                     agree   y_ge16 16-years-and-over       _t     total         42.1 percent                     agree          NaN     NaN     NaN
+gregorian-interval 2023-03-22p11d      22-march-2023-to-02-april-2023 k03000001 great-britain              3 neither-agree-or-disagree   y_ge16 16-years-and-over       _t     total         35.5 percent neither-agree-or-disagree          NaN     NaN     NaN
+        - Last 10 Observations: 
+  time_period_type    time_period                   time_period_label area_code    area_label  response_code                response age_code         age_label sex_code sex_label  observation    unit    feeling_of_belonging  sample_size  lcl_95  ucl_95
+gregorian-interval 2023-08-23p11d 23-august-2023-to-03-september-2023 k03000001 great-britain              4                disagree   y_ge16 16-years-and-over       _t     total         10.0 percent                disagree          NaN     NaN     NaN
+gregorian-interval 2023-08-23p11d 23-august-2023-to-03-september-2023 k03000001 great-britain              5       strongly-disagree   y_ge16 16-years-and-over       _t     total          3.0 percent       strongly-disagree          NaN     NaN     NaN
+gregorian-interval 2023-08-23p11d 23-august-2023-to-03-september-2023 k03000001 great-britain              0 agree-or-strongly-agree y_16to24     aged-16-to-24       _t     total         49.4 percent agree-or-strongly-agree        100.0    38.7    60.0
+gregorian-interval 2023-08-23p11d 23-august-2023-to-03-september-2023 k03000001 great-britain              0 agree-or-strongly-agree y_25to34     aged-25-to-34       _t     total         46.3 percent agree-or-strongly-agree        190.0    38.1    54.5
+gregorian-interval 2023-08-23p11d 23-august-2023-to-03-september-2023 k03000001 great-britain              0 agree-or-strongly-agree y_35to49     aged-35-to-49       _t     total         52.7 percent agree-or-strongly-agree        310.0    46.1    59.3
+gregorian-interval 2023-08-23p11d 23-august-2023-to-03-september-2023 k03000001 great-britain              0 agree-or-strongly-agree y_50to64     aged-50-to-64       _t     total         52.5 percent agree-or-strongly-agree        620.0    46.9    58.0
+gregorian-interval 2023-08-23p11d 23-august-2023-to-03-september-2023 k03000001 great-britain              0 agree-or-strongly-agree y_65to74     aged-65-to-74       _t     total         63.0 percent agree-or-strongly-agree        750.0    57.8    68.1
+gregorian-interval 2023-08-23p11d 23-august-2023-to-03-september-2023 k03000001 great-britain              0 agree-or-strongly-agree   y_ge75  aged-75-and-over       _t     total         73.2 percent agree-or-strongly-agree        690.0    68.6    77.8
+gregorian-interval 2023-08-23p11d 23-august-2023-to-03-september-2023 k03000001 great-britain              0 agree-or-strongly-agree   y_ge16 16-years-and-over        m      male         54.8 percent agree-or-strongly-agree       1280.0    59.3    50.4
+gregorian-interval 2023-08-23p11d 23-august-2023-to-03-september-2023 k03000001 great-britain              0 agree-or-strongly-agree   y_ge16 16-years-and-over        f    female         54.3 percent agree-or-strongly-agree       1390.0    58.1    50.5
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+                  Measure    Unit  Count
+                    agree percent      4
+  agree-or-strongly-agree percent     12
+                 disagree percent      4
+neither-agree-or-disagree percent      4
+           strongly-agree percent      4
+        strongly-disagree percent      4
+        

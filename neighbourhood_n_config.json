@@ -1,6 +1,6 @@
 {
     "$schema": "https://purl.org/csv-cubed/qube-config/v1",
-    "title": "People who agree or strongly agree that they feel like they belong to their neighbourhood",
+    "title": "People's feeling of belonginess to their neighbourhood",
     "summary": "Contains percentage estimates for adults in Great Britain, from 22 June 2022 to 3 September 2023, and the percentage estimates for the latest period, 23 August to 3 September 2023, broken down by age and sex.",
     "description": "Adults aged 16 years and over were asked to rate to what extent do they agree with the statement ‘I feel like I belong to this neighbourhood' on a 5-point scale from 'strongly agree' to 'strongly disagree'",
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
@@ -16,7 +16,7 @@
         "comfortably",
         "male",
         "female",
-        "comfort"
+        "comfort"  
     ],
     "columns": {
         "time_period_type": {
@@ -36,13 +36,9 @@
             "type": "dimension",
             "label": "area_code"
         },
-        "response_code": {
+        "area_label": {
             "type": "dimension",
-            "label": "response_code"
-        },
-        "response": {
-            "type": "dimension",
-            "label": "response"
+            "label": "area_label"
         },
         "age_code": {
             "type": "dimension",
@@ -51,6 +47,10 @@
         "age_label": {
             "type": "dimension",
             "label": "age_label"
+        },
+        "measure": {
+            "type": "dimension",
+            "label": "measure"
         },
         "sex_code": {
             "type": "dimension",
