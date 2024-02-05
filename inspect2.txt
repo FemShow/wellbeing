@@ -15,11 +15,11 @@
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
           - Keywords: 
 		-- comfortably
-		-- living
-		-- male
 		-- belong
 		-- female
+		-- male
 		-- comfort
+		-- living
           - Contact Point: None
           - Identifier: People's feeling of belonginess to their neighbourhood
           - Comment: Contains percentage estimates for adults in Great Britain, from 22 June 2022 to 3 September 2023, and the percentage estimates for the latest period, 23 August to 3 September 2023, broken down by age and sex.
@@ -67,29 +67,29 @@ gregorian-time-interval.csv#code-list Gregorian Time Interval       time_period
         - Number of Observations: 32
         - Number of Duplicates: 0
         - First 10 Observations: 
-  time_period_type               time_period                   time_period_label area_code    area_label age_code         age_label                   measure sex_code sex_label  observation    unit                                  feeling_of_belonging  lcl_95  ucl_95  sample_size
-gregorian-interval 2022-12-21p18d/2023-01-08 21-december-2022-to-08-january-2023 k03000001 great-britain   y_ge16 16-years-and-over   agree-or-strongly-agree       _t     total         54.8 percent peoples-feeling-of-belonginess-to-their-neighbourhood    57.9    51.6       1490.0
-gregorian-interval 2022-12-21p18d/2023-01-08 21-december-2022-to-08-january-2023 k03000001 great-britain   y_ge16 16-years-and-over            strongly-agree       _t     total          9.6 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
-gregorian-interval 2022-12-21p18d/2023-01-08 21-december-2022-to-08-january-2023 k03000001 great-britain   y_ge16 16-years-and-over                     agree       _t     total         45.1 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
-gregorian-interval 2022-12-21p18d/2023-01-08 21-december-2022-to-08-january-2023 k03000001 great-britain   y_ge16 16-years-and-over neither-agree-or-disagree       _t     total         35.2 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
-gregorian-interval 2022-12-21p18d/2023-01-08 21-december-2022-to-08-january-2023 k03000001 great-britain   y_ge16 16-years-and-over                  disagree       _t     total          8.2 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
-gregorian-interval 2022-12-21p18d/2023-01-08 21-december-2022-to-08-january-2023 k03000001 great-britain   y_ge16 16-years-and-over         strongly-disagree       _t     total          1.8 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
-gregorian-interval 2023-03-22p11d/2023-04-02      22-march-2023-to-02-april-2023 k03000001 great-britain   y_ge16 16-years-and-over   agree-or-strongly-agree       _t     total         53.5 percent peoples-feeling-of-belonginess-to-their-neighbourhood    56.0    51.1       2660.0
-gregorian-interval 2023-03-22p11d/2023-04-02      22-march-2023-to-02-april-2023 k03000001 great-britain   y_ge16 16-years-and-over            strongly-agree       _t     total         11.4 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
-gregorian-interval 2023-03-22p11d/2023-04-02      22-march-2023-to-02-april-2023 k03000001 great-britain   y_ge16 16-years-and-over                     agree       _t     total         42.1 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
-gregorian-interval 2023-03-22p11d/2023-04-02      22-march-2023-to-02-april-2023 k03000001 great-britain   y_ge16 16-years-and-over neither-agree-or-disagree       _t     total         35.5 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
+  time_period_type     time_period                   time_period_label area_code    area_label age_code         age_label                   measure sex_code sex_label  observation    unit                                  feeling_of_belonging  lcl_95  ucl_95  sample_size
+gregorian-interval 2022-12-21/p18d 21-december-2022-to-08-january-2023 k03000001 great-britain   y_ge16 16-years-and-over   agree-or-strongly-agree       _t     total         54.8 percent peoples-feeling-of-belonginess-to-their-neighbourhood    57.9    51.6       1490.0
+gregorian-interval 2022-12-21/p18d 21-december-2022-to-08-january-2023 k03000001 great-britain   y_ge16 16-years-and-over            strongly-agree       _t     total          9.6 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
+gregorian-interval 2022-12-21/p18d 21-december-2022-to-08-january-2023 k03000001 great-britain   y_ge16 16-years-and-over                     agree       _t     total         45.1 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
+gregorian-interval 2022-12-21/p18d 21-december-2022-to-08-january-2023 k03000001 great-britain   y_ge16 16-years-and-over neither-agree-or-disagree       _t     total         35.2 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
+gregorian-interval 2022-12-21/p18d 21-december-2022-to-08-january-2023 k03000001 great-britain   y_ge16 16-years-and-over                  disagree       _t     total          8.2 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
+gregorian-interval 2022-12-21/p18d 21-december-2022-to-08-january-2023 k03000001 great-britain   y_ge16 16-years-and-over         strongly-disagree       _t     total          1.8 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
+gregorian-interval 2023-03-22/p11d      22-march-2023-to-02-april-2023 k03000001 great-britain   y_ge16 16-years-and-over   agree-or-strongly-agree       _t     total         53.5 percent peoples-feeling-of-belonginess-to-their-neighbourhood    56.0    51.1       2660.0
+gregorian-interval 2023-03-22/p11d      22-march-2023-to-02-april-2023 k03000001 great-britain   y_ge16 16-years-and-over            strongly-agree       _t     total         11.4 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
+gregorian-interval 2023-03-22/p11d      22-march-2023-to-02-april-2023 k03000001 great-britain   y_ge16 16-years-and-over                     agree       _t     total         42.1 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
+gregorian-interval 2023-03-22/p11d      22-march-2023-to-02-april-2023 k03000001 great-britain   y_ge16 16-years-and-over neither-agree-or-disagree       _t     total         35.5 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
         - Last 10 Observations: 
-  time_period_type               time_period                   time_period_label area_code    area_label age_code         age_label                 measure sex_code sex_label  observation    unit                                  feeling_of_belonging  lcl_95  ucl_95  sample_size
-gregorian-interval 2023-08-23p11d/2023-09-03 23-august-2023-to-03-september-2023 k03000001 great-britain   y_ge16 16-years-and-over                disagree       _t     total         10.0 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
-gregorian-interval 2023-08-23p11d/2023-09-03 23-august-2023-to-03-september-2023 k03000001 great-britain   y_ge16 16-years-and-over       strongly-disagree       _t     total          3.0 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
-gregorian-interval 2023-08-23p11d/2023-09-03 23-august-2023-to-03-september-2023 k03000001 great-britain y_16to24          16-to-24 agree-or-strongly-agree       _t     total         49.4 percent peoples-feeling-of-belonginess-to-their-neighbourhood    38.7    60.0        100.0
-gregorian-interval 2023-08-23p11d/2023-09-03 23-august-2023-to-03-september-2023 k03000001 great-britain y_25to34          25-to-34 agree-or-strongly-agree       _t     total         46.3 percent peoples-feeling-of-belonginess-to-their-neighbourhood    38.1    54.5        190.0
-gregorian-interval 2023-08-23p11d/2023-09-03 23-august-2023-to-03-september-2023 k03000001 great-britain y_35to49          35-to-49 agree-or-strongly-agree       _t     total         52.7 percent peoples-feeling-of-belonginess-to-their-neighbourhood    46.1    59.3        310.0
-gregorian-interval 2023-08-23p11d/2023-09-03 23-august-2023-to-03-september-2023 k03000001 great-britain y_50to64          50-to-64 agree-or-strongly-agree       _t     total         52.5 percent peoples-feeling-of-belonginess-to-their-neighbourhood    46.9    58.0        620.0
-gregorian-interval 2023-08-23p11d/2023-09-03 23-august-2023-to-03-september-2023 k03000001 great-britain y_65to74          65-to-74 agree-or-strongly-agree       _t     total         63.0 percent peoples-feeling-of-belonginess-to-their-neighbourhood    57.8    68.1        750.0
-gregorian-interval 2023-08-23p11d/2023-09-03 23-august-2023-to-03-september-2023 k03000001 great-britain   y_ge75       75-and-over agree-or-strongly-agree       _t     total         73.2 percent peoples-feeling-of-belonginess-to-their-neighbourhood    68.6    77.8        690.0
-gregorian-interval 2023-08-23p11d/2023-09-03 23-august-2023-to-03-september-2023 k03000001 great-britain   y_ge16 16-years-and-over agree-or-strongly-agree        m      male         54.8 percent peoples-feeling-of-belonginess-to-their-neighbourhood    59.3    50.4       1280.0
-gregorian-interval 2023-08-23p11d/2023-09-03 23-august-2023-to-03-september-2023 k03000001 great-britain   y_ge16 16-years-and-over agree-or-strongly-agree        m    female         54.3 percent peoples-feeling-of-belonginess-to-their-neighbourhood    58.1    50.5       1390.0
+  time_period_type     time_period                   time_period_label area_code    area_label age_code         age_label                 measure sex_code sex_label  observation    unit                                  feeling_of_belonging  lcl_95  ucl_95  sample_size
+gregorian-interval 2023-08-23/p11d 23-august-2023-to-03-september-2023 k03000001 great-britain   y_ge16 16-years-and-over                disagree       _t     total         10.0 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
+gregorian-interval 2023-08-23/p11d 23-august-2023-to-03-september-2023 k03000001 great-britain   y_ge16 16-years-and-over       strongly-disagree       _t     total          3.0 percent peoples-feeling-of-belonginess-to-their-neighbourhood     NaN     NaN          NaN
+gregorian-interval 2023-08-23/p11d 23-august-2023-to-03-september-2023 k03000001 great-britain y_16to24          16-to-24 agree-or-strongly-agree       _t     total         49.4 percent peoples-feeling-of-belonginess-to-their-neighbourhood    38.7    60.0        100.0
+gregorian-interval 2023-08-23/p11d 23-august-2023-to-03-september-2023 k03000001 great-britain y_25to34          25-to-34 agree-or-strongly-agree       _t     total         46.3 percent peoples-feeling-of-belonginess-to-their-neighbourhood    38.1    54.5        190.0
+gregorian-interval 2023-08-23/p11d 23-august-2023-to-03-september-2023 k03000001 great-britain y_35to49          35-to-49 agree-or-strongly-agree       _t     total         52.7 percent peoples-feeling-of-belonginess-to-their-neighbourhood    46.1    59.3        310.0
+gregorian-interval 2023-08-23/p11d 23-august-2023-to-03-september-2023 k03000001 great-britain y_50to64          50-to-64 agree-or-strongly-agree       _t     total         52.5 percent peoples-feeling-of-belonginess-to-their-neighbourhood    46.9    58.0        620.0
+gregorian-interval 2023-08-23/p11d 23-august-2023-to-03-september-2023 k03000001 great-britain y_65to74          65-to-74 agree-or-strongly-agree       _t     total         63.0 percent peoples-feeling-of-belonginess-to-their-neighbourhood    57.8    68.1        750.0
+gregorian-interval 2023-08-23/p11d 23-august-2023-to-03-september-2023 k03000001 great-britain   y_ge75       75-and-over agree-or-strongly-agree       _t     total         73.2 percent peoples-feeling-of-belonginess-to-their-neighbourhood    68.6    77.8        690.0
+gregorian-interval 2023-08-23/p11d 23-august-2023-to-03-september-2023 k03000001 great-britain   y_ge16 16-years-and-over agree-or-strongly-agree        m      male         54.8 percent peoples-feeling-of-belonginess-to-their-neighbourhood    59.3    50.4       1280.0
+gregorian-interval 2023-08-23/p11d 23-august-2023-to-03-september-2023 k03000001 great-britain   y_ge16 16-years-and-over agree-or-strongly-agree        m    female         54.3 percent peoples-feeling-of-belonginess-to-their-neighbourhood    58.1    50.5       1390.0
         
 
 - The data cube has the following value counts:
